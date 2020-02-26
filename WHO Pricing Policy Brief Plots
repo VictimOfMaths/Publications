@@ -1,0 +1,273 @@
+rm(list = ls())
+
+library(ggplot2)
+library(dplyr)
+library(data.table)
+library(cowplot)
+library(tidyr)
+library(tricolore)
+library(ggtern)
+library(viridis)
+library(rnaturalearth)
+library(sf)
+library(lwgeom)
+library(directlabels)
+library(scales)
+library(forcats)
+
+#Figure 3 - Passthrough graph
+quantile <- c(0.05,0.15,0.25,0.35,0.45,0.55,0.65,0.75,0.85,0.95)
+beer <- c(0.852,0.971,1.03,1.042,1.053,1.063,1.072,1.077,1.103,1.139)
+beerse <- c(0.033,0.019,0.011,0.009,0.009,0.01,0.01,0.01,0.013,0.019)
+wine <- c(0.908,1.06,1.099,1.108,1.109,1.113,1.12,1.127,1.147,1.18)
+winese <- c(0.056,0.031,0.013,0.011,0.009,0.01,0.01,0.011,0.012,0.024)
+spirits <- c(0.86,0.942,1.048,1.069,1.082,1.089,1.093,1.096,1.11,1.126)
+spiritsse <- c(0.017,0.019,0.018,0.01,0.008,0.008,0.008,0.009,0.011,0.016)
+passthru <- data.frame(quantile, beer, beerse, wine, winese, spirits, spiritsse)
+
+passthru$beerdiff <- passthru$beer-1
+passthru$winediff <- passthru$wine-1
+passthru$spiritsdiff <- passthru$spirits-1
+
+passthru_long <- gather(passthru, bevtype, rate, c(8:10))
+passthru_long$bevtype <- factor(passthru_long$bevtype, levels=c("winediff", "beerdiff", "spiritsdiff"))
+passthru_long$se <- case_when(
+  passthru_long$bevtype=="winediff" ~ passthru_long$winese,
+  passthru_long$bevtype=="beerdiff" ~ passthru_long$beerse,
+  passthru_long$bevtype=="spiritsdiff" ~ passthru_long$spiritsse
+)
+
+tiff("Outputs/WHOFig3Passthrough.tiff", units="in", width=7, height=5, res=300)
+ggplot(passthru_long, aes(x=as.factor(quantile), y=rate, fill=bevtype))+
+  geom_bar(stat="identity", position="dodge")+
+  geom_segment(aes(x=0, xend=12, y=0, yend=0))+
+  geom_errorbar(aes(x=as.factor(quantile), ymin=rate-1.96*se, ymax=rate+1.96*se), width=0, position=position_dodge(width=0.9))+
+  theme_classic()+
+  scale_fill_manual(values=c("#ff80f7", "#cfb000", "#00d1d0"), name="", labels=c("Wine", "Beer", "Spirits"))+
+  scale_x_discrete(name="Quantile of product price")+
+  scale_y_continuous(name="Passthrough rate (1=full passthrough)", breaks=c(-0.2,-0.1,0,0.1,0.2),
+                     labels=c("0.8", "0.9", "1", "1.1", "1.2"), limits=c(-0.25,0.25))
+dev.off()
+
+
+fulldata <- fread("Data/WHO duty rates.csv")
+shortdata <- fread("Data/WHO duty rates short.csv")
+
+#Fix country names
+names(fulldata)[names(fulldata) == "Czech Republic"] <- "Czechia"
+names(fulldata)[names(fulldata) == "The Former Yugoslav Republic of Macedonia"] <- "North Macedonia"
+names(fulldata)[names(fulldata) == "Moldova"] <- "Republic of Moldova"
+names(fulldata)[names(fulldata) == "UK"] <- "United Kingdom"
+
+shortdata$Country <- case_when(
+  shortdata$Country=="Czech Republic" ~ "Czechia",
+  shortdata$Country=="The Former Yugoslav Republic of Macedonia" ~ "North Macedonia",
+  shortdata$Country=="Moldova" ~ "Republic of Moldova",
+  shortdata$Country=="UK" ~ "United Kingdom",
+  TRUE ~ shortdata$Country
+)
+
+fulldata_long <- gather(fulldata, Country, dutyrate, c(3:55))
+
+#Figure 4 - VAT bar chart
+shortdata$Country <- fct_rev(shortdata$Country)
+
+tiff("Outputs/WHOFig4VATrates.tiff", units="in", width=8, height=10, res=300)
+ggplot(shortdata,aes(x=Country, y=VAT*100, fill=VAT*100))+
+  geom_bar(stat="identity")+
+  scale_x_discrete(name="")+
+  scale_y_continuous(name="VAT rate", labels=dollar_format(suffix="%", prefix=""), limits=c(0,30))+
+  scale_fill_distiller(palette="Spectral", name="", labels=dollar_format(suffix="%", prefix=""))+
+  theme_classic()+
+  coord_flip()
+dev.off()
+
+#Figure 6 - Wine duty rates with highlights
+fulldata_long$winelabel <- case_when(
+  fulldata_long$Country=="Iceland" ~ "#4ECDC4",
+  fulldata_long$Country=="Norway" ~ "#FF33FF",
+  fulldata_long$Country=="Albania" ~ "#DB5E6B",
+  fulldata_long$Drink=="Wine" ~ "Grey",
+  TRUE ~ "White")
+
+fulldata_long$Country1 <- case_when(
+  fulldata_long$Country=="Iceland" ~ "Iceland",
+  fulldata_long$Country=="Norway" ~ "Norway",
+  fulldata_long$Country=="Albania" ~ "Albania",
+  TRUE ~ ""
+)
+
+tiff("Outputs/WHOFig6wine.tiff", units="in", width=8, height=6, res=300)
+ggplot(subset(fulldata_long, Drink=="Wine"), aes(x=ABV, y=dutyrate, group=Country, colour=winelabel))+
+  geom_line(size=1)+
+  scale_colour_identity()+
+  scale_x_continuous(labels=c("0%", "5%", "10%", "15%"), breaks=c(0,0.05,0.1,0.15))+
+  scale_y_continuous(labels=dollar_format(suffix="", prefix="I$"), name="Duty rate per standard drink (10g ethanol)")+
+  theme_classic()+
+  theme(legend.position="none")+
+  coord_cartesian(xlim=c(0,0.17), ylim=c(0,1.5))+
+  geom_dl(aes(label=Country1), method="last.points")
+dev.off()
+
+#Figure 7 - Beer duty rates with highlights
+fulldata_long$beerlabel <- case_when(
+  fulldata_long$Country=="Iceland" ~ "#4ECDC4",
+  fulldata_long$Country=="United Kingdom" ~ "#1A535C",
+  fulldata_long$Country=="Belarus" ~ "#F2B468",
+  fulldata_long$Country=="Norway" ~ "#FF33FF", 
+  fulldata_long$Country=="Russian Federation" ~ "#6600cc", 
+  fulldata_long$Drink=="Beer" ~ "Grey",
+  TRUE ~ "White")
+
+fulldata_long$Country1 <- case_when(
+  fulldata_long$Country=="Iceland" ~ "Iceland",
+  fulldata_long$Country=="United Kingdom" ~ "United Kingdom",
+  fulldata_long$Country=="Belarus" ~ "Belarus",
+  fulldata_long$Country=="Norway" ~ "Norway",
+  fulldata_long$Country=="Russian Federation" ~ "Russian Federation",
+  TRUE ~ ""
+)
+
+tiff("Outputs/WHOFig7beer.tiff", units="in", width=8, height=6, res=300)
+ggplot(subset(fulldata_long, Drink=="Beer"), aes(x=ABV, y=dutyrate, group=Country, colour=beerlabel))+
+  geom_line(size=1)+
+  scale_colour_identity()+
+  scale_x_continuous(labels=c("0%", "5%", "10%", "15%"), breaks=c(0,0.05,0.1,0.15))+
+  scale_y_continuous(labels=dollar_format(suffix="", prefix="I$"), name="Duty rate per standard drink (10g ethanol)")+
+  theme_classic()+
+  theme(legend.position="none")+
+  coord_cartesian(xlim=c(0,0.16), ylim=c(0,1.5))+
+  geom_dl(aes(label=Country1), method="last.points")
+dev.off()
+
+#Figure 8 - Spirits duty rates with highlights
+fulldata_long$spiritslabel <- case_when(
+  fulldata_long$Country=="Iceland" ~ "#4ECDC4",
+  fulldata_long$Country=="Norway" ~ "#FF33FF",
+  fulldata_long$Country=="Turkey" ~ "#339900",
+  fulldata_long$Country=="Azerbaijan" ~ "#000000",
+  fulldata_long$Country=="Turkmenistan" ~ "#0000FF",
+  fulldata_long$Drink=="Spirits" ~ "Grey",
+  TRUE ~ "White")
+
+fulldata_long$Country1 <- case_when(
+  fulldata_long$Country=="Iceland" ~ "Iceland",
+  fulldata_long$Country=="Norway" ~ "Norway",
+  fulldata_long$Country=="Turkey" ~ "Turkey",
+  fulldata_long$Country=="Azerbaijan" ~ "Azerbaijan",
+  fulldata_long$Country=="Turkmenistan" ~ "Turkmenistan",
+  TRUE ~ ""
+)
+
+tiff("Outputs/WHOFig8spirits.tiff", units="in", width=8, height=6, res=300)
+ggplot(subset(fulldata_long, Drink=="Spirits"), aes(x=ABV, y=dutyrate, group=Country, colour=spiritslabel))+
+  geom_line(size=1)+
+  scale_colour_identity()+
+  scale_x_continuous(labels=c("0%", "5%", "10%", "15%"), breaks=c(0,0.05,0.1,0.15))+
+  scale_y_continuous(labels=dollar_format(suffix="", prefix="I$"), name="Duty rate per standard drink (10g ethanol)")+
+  theme_classic()+
+  theme(legend.position="none")+
+  coord_cartesian(xlim=c(0,0.45), ylim=c(0,1.5))+
+  geom_dl(aes(label=Country1), method="last.points")
+dev.off()
+
+#Generate Tricolore colour scheme
+col_leg <- Tricolore(shortdata, "5% beer", "40% spirits","12.5% wine")
+shortdata$rgb <- col_leg$rgb
+
+#Read in shapefile from Natural Earth
+shapefile <- ne_download(scale=10, type="sovereignty", category="cultural", returnclass="sf")
+
+#Tidy names and merge Kosovo and Northern Cyprus in Serbia and Cyprus
+shapefile$Country <- case_when(
+  shapefile$NAME_EN=="Moldova" ~ "Republic of Moldova",
+  shapefile$NAME_EN=="Baikonur" ~ "Kazakhstan",
+  shapefile$NAME_EN=="Russia" ~ "Russian Federation",
+  shapefile$NAME_EN=="Czech Republic" ~ "Czechia",
+  shapefile$NAME_EN=="Republic of Macedonia" ~ "North Macedonia",
+  shapefile$NAME_EN=="Kosovo" ~ "Serbia",
+  shapefile$NAME_EN=="Turkish Republic of Northern Cyprus" ~ "Cyprus",
+  shapefile$NAME_EN=="United Nations Buffer Zone in Cyprus" ~ "Cyprus",
+  TRUE ~ as.character(shapefile$NAME_EN))
+
+shapefile$area <- st_area(shapefile)
+shapefile <- shapefile %>%
+  group_by(Country) %>%
+  summarise()
+
+#Bring in data
+map.data <- full_join(shapefile, shortdata, by=c("Country"))
+
+#Remove non WHO-Europe countries
+map.data <- map.data %>%
+  filter(Country %in% c("Austria", "Belgium", "Bulgaria", "Cyprus", "Czechia", "Germany", "Denmark", "Estonia", "Greece", "Spain",
+                          "Finland", "France", "Croatia", "Hungary", "Ireland", "Italy", "Lithuania", "Luxembourg", "Latvia", "Malta",
+                          "Netherlands", "Poland", "Portugal", "Romania", "Sweden", "Slovenia", "Slovakia", "United Kingdom", "Norway", 
+                          "Russian Federation", "Serbia", "Bosnia and Herzegovina", "Albania", "Kosovo", "Ukraine", "Switzerland", 
+                          "North Macedonia", "Turkey",
+                          "Belarus", "Republic of Moldova", "Montenegro", "Andorra", "Armenia", "Azerbaijan", "Georgia", "Iceland", "Israel",
+                          "Kazakhstan", "Kyrgyzstan", "Tajikistan", "Turkmenistan", "Uzbekistan"))
+
+map.data_long <- gather(map.data, Drink, dutyrate, c(4,5,8))
+map.data_long$Drink <- factor(map.data_long$Drink, levels=c("12.5% wine", "5% beer", "40% spirits"))
+
+tiff("Outputs/WHOFig9ShortRates.tiff", units="in", width=8, height=11, res=300)
+ggplot(data=map.data_long, aes(fill=dutyrate, geometry=geometry))+
+  geom_sf(colour="Black")+
+  theme_classic()+
+  theme(axis.line=element_blank(), axis.ticks=element_blank(), axis.text=element_blank())+
+  scale_fill_distiller(name="Duty rate in I$\nper standard drink",palette="Spectral")+
+  xlim(-20,80)+
+  ylim(31.5,70)+
+  #Block out Greenland
+  geom_rect(aes(xmin=-Inf, xmax=0, ymin=68, ymax=Inf), fill="White")+
+  #Canaries
+  geom_rect(aes(xmin=-Inf, xmax=0, ymin=-Inf, ymax=36), fill="White")+
+  #Azores
+  geom_rect(aes(xmin=-Inf, xmax=-18, ymin=-Inf, ymax=40), fill="White")+
+  facet_grid(Drink~.)
+dev.off()
+  
+
+col_leg$key <- col_leg$key+
+  theme_showarrows()+
+  theme(tern.axis.text.show = FALSE, tern.axis.arrow.text=element_text(size=rel(0.9)))
+
+#Plot
+tiff("Outputs/WHOFig10Tricolore.tiff", units="in", width=14, height=10, res=300)
+ggplot(data=map.data, aes(fill=rgb, geometry=geometry))+
+  geom_sf(colour="Black")+
+  theme_classic()+
+  theme(axis.line=element_blank(), axis.ticks=element_blank(), axis.text=element_blank())+
+  scale_fill_identity()+
+  xlim(-20,80)+
+  ylim(31.5,70)+
+  #Block out Greenland
+  geom_rect(aes(xmin=-Inf, xmax=0, ymin=68, ymax=Inf), fill="White")+
+  #Canaries
+  geom_rect(aes(xmin=-Inf, xmax=0, ymin=-Inf, ymax=36), fill="White")+
+  #Azores
+  geom_rect(aes(xmin=-Inf, xmax=-18, ymin=-Inf, ymax=40), fill="White")+
+  annotation_custom(
+    ggplotGrob(col_leg$key+labs(x = "", xarrow="Higher duty\non beer",
+                                y="", yarrow="Higher duty\non spirits",
+                                z="", zarrow="Higher duty\non wine")),
+    xmin = 47, xmax = Inf, ymin = 50.99, ymax = Inf)
+dev.off()
+
+#Plot of indexing countries
+tiff("Outputs/WHOFig11Indexing.tiff", units="in", width=8, height=5, res=300)
+ggplot(data=map.data, aes(fill=fct_rev(as.factor(Indexing)), geometry=geometry))+
+  geom_sf(colour="Black")+
+  theme_classic()+
+  theme(axis.line=element_blank(), axis.ticks=element_blank(), axis.text=element_blank())+
+  xlim(-20,80)+
+  ylim(31.5,70)+
+  #Block out Greenland
+  geom_rect(aes(xmin=-Inf, xmax=0, ymin=68, ymax=Inf), fill="White")+
+  #Canaries
+  geom_rect(aes(xmin=-Inf, xmax=0, ymin=-Inf, ymax=36), fill="White")+
+  #Azores
+  geom_rect(aes(xmin=-Inf, xmax=-18, ymin=-Inf, ymax=40), fill="White")+
+  scale_fill_manual(values=c("Firebrick1", "Grey"), labels=c("Yes", "No"), name="Indexing of\nalcohol duty")
+dev.off()
