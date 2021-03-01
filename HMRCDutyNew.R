@@ -11,13 +11,13 @@ library(ggtext)
 
 #Read in data from HMRC Alcohol Bulletin https://www.gov.uk/government/statistics/alcohol-bulletin
 temp <- tempfile()
-source <- "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/938831/2020_Oct_Alc_Tabs__A_.ods"
+source <- "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/964841/2021_Jan_Alc_Tabs.ods"
 temp <- curl_download(url=source, destfile=temp, quiet=FALSE, mode="wb")
 
 ###########
 #Wine data#
 ###########
-raw.wine <- read_ods(temp, sheet="Wine_statistics", range="A50:J308", col_names=FALSE)[,c(1:4,8,9)] 
+raw.wine <- read_ods(temp, sheet="Wine_statistics", range="A51:J312", col_names=FALSE)[,c(1:4,8,9)] 
 
 colnames(raw.wine) <- c("Month", "Still", "Sparkling", "Fortified", "Total", 
                         "Receipts")
@@ -48,7 +48,7 @@ wine <- merge(wine, temp.wine, by=c("Source", "Month"), all=TRUE) %>%
 ################
 #Made wine data#
 ################
-raw.madewine <- read_ods(temp, sheet="Made_wine_statistics", range="A50:K308", col_names=FALSE)[,c(1:4,9)]
+raw.madewine <- read_ods(temp, sheet="Made_wine_statistics", range="A51:K312", col_names=FALSE)[,c(1:4,9)]
 
 colnames(raw.madewine) <- c("Month", "Low", "Still_High", "Sparkling_High", "Total")
 
@@ -78,7 +78,7 @@ madewine <- merge(madewine, temp.madewine, by=c("Source", "Month"), all=TRUE) %>
 ##############
 #Spirits data#
 ##############
-raw.spirits <- read_ods(temp, sheet="Spirits_statistics", range="A50:J308", col_names=FALSE)[,c(1,3,4,6:9)]
+raw.spirits <- read_ods(temp, sheet="Spirits_statistics", range="A53:J314", col_names=FALSE)[,c(1,3,4,6:9)]
 
 colnames(raw.spirits) <- c("Month", "MaltWhisky", "OtherWhisky", "RTDs", "Other", "Total",
                           "Receipts")
@@ -110,7 +110,7 @@ spirits <- merge(spirits, temp.spirits, by=c("Source", "Month"), all=TRUE) %>%
 ###################
 #Beer & Cider data#
 ###################
-raw.beercider <- read_ods(temp, sheet="Beer_and_cider_statistics", range="A50:K308", col_names=FALSE)
+raw.beercider <- read_ods(temp, sheet="Beer_and_cider_statistics", range="A51:K312", col_names=FALSE)
 beer <- raw.beercider[,c(1:3,6,7,9)]
 cider <- raw.beercider[,c(1,8,10)]
 
@@ -139,7 +139,7 @@ data2 <- bind_rows(wine, madewine, spirits, beer, cider) %>%
 #Inflate receipts
 #Read in RPI data - need to edit the to and from months/years in the URL
 temp2 <- tempfile()
-source <- "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czeq/mm23&series=&fromMonth=01&fromYear=1950&toMonth=10&toYear=2020&frequency=months"
+source <- "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czeq/mm23&series=&fromMonth=01&fromYear=1950&toMonth=01&toYear=2021&frequency=months"
 temp2 <- curl_download(url=source, destfile=temp2, quiet=FALSE, mode="wb")
 
 RPIdata <- read.csv(temp2)[-c(1:5),]
@@ -152,7 +152,7 @@ RPIdata <- RPIdata %>%
          inflator=index[length(index)]/index)
 
 data2 <- merge(data2, RPIdata, by="date") %>% 
-  #Inflate to July 2020 prices
+  #Inflate to Jan 2021 prices
   mutate(Receipts.Adj=Receipts*inflator)
 
 #Compress to shorter data for main analysis
@@ -187,7 +187,7 @@ AlcVol <- data %>%
   ungroup()
 
 AlcVol.2020 <- data %>%
-  filter(date>=as.Date("2020-01-01")) %>%
+  filter(date>=as.Date("2020-01-01") & date<as.Date("2021-01-01")) %>%
   mutate(yearmonth=month(date)) %>%
   group_by(yearmonth, Product) %>%
   summarise(Clearances.Product=sum(Clearances.Product),
@@ -234,14 +234,14 @@ ggplot(subset(AlcVol, Product=="Total"))+
   scale_y_continuous(name="Estimated monthly ethanol clearances\n(millions of litres)", limits=c(0,NA))+
   theme_classic()+
   theme(plot.title=element_text(face="bold", size=rel(1.5)))+
-  annotate("text", x=9, y=47, colour="Red", label="2020")+
+  annotate("text", x=7, y=53, colour="Red", label="2020")+
   annotate("text", x=3.5, y=54, colour="Skyblue4", label="2015-19 range")+
   annotate("text", x=11, y=44, colour="Grey50", label="2015-19 mean")+
   geom_curve(aes(x=3.5, y=52.5, xend=3.2, yend=49.5), colour="Skyblue4", curvature=-0.25,
              arrow=arrow(length=unit(0.1, "cm"), type="closed"), lineend="round")+
-  geom_curve(aes(x=11, y=45.5, xend=10.3, yend=50), colour="grey30", curvature=0.15,
+  geom_curve(aes(x=11, y=45.5, xend=10, yend=48), colour="grey30", curvature=0.15,
              arrow=arrow(length=unit(0.1, "cm"), type="closed"), lineend="round")+
-  annotate("text", x=5, y=20, colour="Red", label=paste0("+", round(loss[4,2], 1), " million litres (+", 
+  annotate("text", x=6, y=20, colour="Red", label=paste0("+", round(loss[4,2], 1), " million litres (+", 
                                                          round(loss[4,4]*100, 1), 
                                                          "%) of alcohol cleared in 2020\ncompared to the 2015-19 average"))+
   labs(title="Total ethanol clearances reported by HMRC",
@@ -284,18 +284,18 @@ ggplot(subset(AlcVol, Product=="Total"))+
   scale_y_continuous(name="HMRC monthly duty receipts\n(£millions)", limits=c(0,NA))+
   theme_classic()+
   theme(plot.title=element_text(face="bold", size=rel(1.5)))+
-  annotate("text", x=10, y=1180, colour="Red", label="2020")+
+  annotate("text", x=6, y=1350, colour="Red", label="2020")+
   annotate("text", x=2.2, y=1150, colour="Skyblue4", label="2015-19 range")+
   annotate("text", x=11, y=900, colour="Grey50", label="2015-19 mean")+
   geom_curve(aes(x=2.2, y=1110, xend=2.5, yend=1000), colour="Skyblue4", curvature=0.25,
              arrow=arrow(length=unit(0.1, "cm"), type="closed"), lineend="round")+
   geom_curve(aes(x=11, y=980, xend=10.4, yend=1060), colour="grey30", curvature=0.15,
              arrow=arrow(length=unit(0.1, "cm"), type="closed"), lineend="round")+
-  annotate("text", x=5, y=400, colour="Red", label=paste0("£", round(loss[4,8], 1), "million (", 
+  annotate("text", x=6, y=400, colour="Red", label=paste0("£", round(loss[4,8], 1), "million (", 
                                                          round(loss[4,10]*100, 1), 
                                                          "%) revenue from alcohol duty collected in 2020\ncompared to the 2015-19 average"))+
   labs(title="Total HMRC revenue from alcohol duty",
-       subtitle="Adjusted to October 2020 prices using the Retail Prices Index", 
+       subtitle="Adjusted to January 2021 prices using the Retail Prices Index", 
        caption="Data from HMRC | Plot by @VictimOfMaths")
 dev.off()
 
@@ -306,7 +306,7 @@ ggplot(subset(AlcVol, Product!="Total"))+
   geom_line(aes(x=yearmonth, y=alcvolmean), linetype=2, colour="Grey50")+
   geom_ribbon(aes(x=yearmonth, ymin=Clearances.Alcohol, ymax=alcvolmean), fill="Red", alpha=0.2)+
   geom_line(aes(x=yearmonth, y=Clearances.Alcohol), colour="Red")+
-  geom_text(data=subset(loss, Product!="Total"), aes(x=c(5,5,5,5), y=c(10,7,15,9), label=vollabs), colour="Red")+
+  geom_text(data=subset(loss, Product!="Total"), aes(x=c(6,6,6,6), y=c(10,7,15,9), label=vollabs), colour="Red")+
   scale_x_continuous(name="", breaks=seq(1, 12, by=1), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
                                                                 "Aug", "Sep", "Oct", "Nov", "Dec"))+
   scale_y_continuous(name="Estimated monthly ethanol clearances\n(millions of litres)", limits=c(0,NA))+
@@ -324,7 +324,7 @@ ggplot(subset(AlcVol, Product!="Total"))+
   geom_line(aes(x=yearmonth, y=prodvolmean), linetype=2, colour="Grey50")+
   geom_ribbon(aes(x=yearmonth, ymin=Clearances.Product, ymax=prodvolmean), fill="Red", alpha=0.2)+
   geom_line(aes(x=yearmonth, y=Clearances.Product), colour="Red")+
-  geom_text(data=subset(loss, Product!="Total"), aes(x=c(5,5,5,5), y=c(200,150,100,230), label=prodlabs), colour="Red")+
+  geom_text(data=subset(loss, Product!="Total"), aes(x=c(6,6,6,6), y=c(200,150,100,230), label=prodlabs), colour="Red")+
   scale_x_continuous(name="", breaks=seq(1, 12, by=1), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
                                                                 "Aug", "Sep", "Oct", "Nov", "Dec"))+
   scale_y_continuous(name="Estimated monthly alcoholic product clearances\n(millions of litres)", limits=c(0,NA))+
@@ -340,7 +340,7 @@ ggplot(subset(AlcVol, Product!="Total"))+
   geom_line(aes(x=yearmonth, y=revmean), linetype=2, colour="Grey50")+
   geom_ribbon(aes(x=yearmonth, ymin=Receipts.Adj, ymax=revmean), fill="Red", alpha=0.2)+
   geom_line(aes(x=yearmonth, y=Receipts.Adj), colour="Red")+
-  geom_text(data=subset(loss, Product!="Total"), aes(x=c(6,6,6,6), y=c(500,100,460,200), label=revlabs), colour="Red")+
+  geom_text(data=subset(loss, Product!="Total"), aes(x=c(6,6,6,6), y=c(600,100,460,200), label=revlabs), colour="Red")+
   scale_x_continuous(name="", breaks=seq(1, 12, by=1), labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
                                                                 "Aug", "Sep", "Oct", "Nov", "Dec"))+
   scale_y_continuous(name="HMRC monthly duty receipts\n(£millions)", limits=c(0,NA))+
@@ -349,17 +349,17 @@ ggplot(subset(AlcVol, Product!="Total"))+
   theme(plot.title=element_text(face="bold", size=rel(1.5)))+
   theme(strip.background=element_blank(), strip.text=element_text(face="bold", size=rel(1)))+
   labs(title="Total HMRC revenue from alcohol duty",
-       subtitle="Adjusted to October 2020 prices using the Retail Prices Index",
+       subtitle="Adjusted to January 2021 prices using the Retail Prices Index",
        caption="Data from HMRC | Plot by @VictimOfMaths")
 dev.off()
 
 #Generate rolling averages in long-term data
 data <- data %>% 
   group_by(Product) %>% 
-  mutate(Clearances.Product_roll=rollmean(Clearances.Product, 12, align="right", fill=NA),
-         Clearances.Alcohol_roll=rollmean(Clearances.Alcohol, 12, align="right", fill=NA),
-         Receipts_roll=rollmean(Receipts, 12, align="right", fill=NA),
-         Receipts.Adj_roll=rollmean(Receipts.Adj, 12, align="right", fill=NA)) %>% 
+  mutate(Clearances.Product_roll=roll_mean(Clearances.Product, 12, align="right", fill=NA),
+         Clearances.Alcohol_roll=roll_mean(Clearances.Alcohol, 12, align="right", fill=NA),
+         Receipts_roll=roll_mean(Receipts, 12, align="right", fill=NA),
+         Receipts.Adj_roll=roll_mean(Receipts.Adj, 12, align="right", fill=NA)) %>% 
   ungroup()
 
 #Plot cash vs. real terms overall duty revenue
