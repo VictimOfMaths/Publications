@@ -8,6 +8,7 @@ library(paletteer)
 library(cowplot)
 library(RcppRoll)
 library(ggtext)
+library(ragg)
 
 #Read in data from HMRC Alcohol Bulletin https://www.gov.uk/government/statistics/alcohol-bulletin
 temp <- tempfile()
@@ -397,7 +398,7 @@ split <- data.frame(prod=rep(c("Beer", "Cider", "Wine", "Spirits"), times=2),
                     vol=c(82.4, 13.4, 18.9, 21.5, 95.2, 27.7, 126.6, 97.7),
                     prop=c("46%", "33%", "13%", "18%", "54%", "67%", "87%", "82%"))
 
-tiff("Outputs/MESAS2018PrefVector.tiff", units="in", width=8, height=6, res=300)
+tiff("Outputs/MESAS2018PrefVector.tiff", units="in", width=8, height=6, res=500)
 ggplot(split, aes(x=prod, y=vol, fill=channel))+
   geom_bar(stat="identity", position="stack", show.legend=FALSE)+
   geom_text(aes(label=prop), position=position_stack(vjust=0.5))+
@@ -410,3 +411,179 @@ ggplot(split, aes(x=prod, y=vol, fill=channel))+
        subtitle="Total alcohol sales in 2018 by volume of pure alcohol in the <span style='color:#E9A17C;'>on-trade</span> and the <span style='color:#FF3200;'>off-trade",
        caption="Data from NHS Health Scotland | Plot by @VictimOfMaths")
 dev.off()
+
+#Plot descriptive statistics
+#Set up x-axis data labels
+datelabs <- c("", "Apr 1999", "Apr 2000", "Apr 2001", "Apr 2002", "Apr 2003",
+              "Apr 2004", "Apr 2005", "Apr 2006", "Apr 2007", "Apr 2008",
+              "Apr 2009", "Apr 2010", "Apr 2011", "Apr 2012", "Apr 2013",
+              "Apr 2014", "Apr 2015", "Apr 2016", "Apr 2017", "Apr 2018",
+              "Apr 2019","Apr 2020", "Apr 2021","", "")
+
+agg_tiff("Outputs/HMRCAlcRev.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product=="Total"), aes(x=date, y=Receipts))+
+  geom_line(colour="Red3")+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Monthly alcohol duty receipts (£m)", limits=c(0,NA))+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)))+
+  labs(title="HMRC's revenue from alcohol duty has been rising steadily",
+       subtitle="Total monthly revenue reported by HMRC from alcohol duty without adjusting for inflation",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcRevRoll.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product=="Total"), aes(x=date, y=Receipts_roll))+
+  geom_line(colour="Red3")+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Monthly alcohol duty receipts (£m)", limits=c(0,NA))+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)))+
+  labs(title="HMRC's revenue from alcohol duty has stopped rising",
+       subtitle="Rolling 12-month average revenue reported by HMRC from alcohol duty without adjusting for inflation",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcRevAdj.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product=="Total"), aes(x=date, y=Receipts.Adj))+
+  geom_line(colour="Red3")+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Monthly alcohol duty receipts (£m)", limits=c(0,NA))+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)))+
+  labs(title="In real terms, HMRC's revenue from alcohol duty has barely changed",
+       subtitle="Total monthly revenue reported by HMRC from alcohol duty adjusted to January 2021 prices using RPI",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcRevRollAdj.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product=="Total"))+
+  geom_line(aes(x=date, y=Receipts_roll), colour="#F89088")+
+  geom_line(aes(x=date, y=Receipts.Adj_roll), colour="#40A0D8")+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Monthly alcohol duty receipts (£m)", limits=c(0,NA))+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)),
+        plot.subtitle=element_markdown())+
+  labs(title="UK alcohol duty revenue hasn't changed much in 20 years ",
+       subtitle="Rolling 12-month average of HMRC alcohol duty revenue <span style='color:#F89088;'>before</span> and <span style='color:#40A0D8;'>after</span> adjusting for inflation",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcRevDrink.tiff", units="in", width=10, height=7.5, res=500)
+ggplot(data %>% filter(Product!="Total"), aes(x=date, y=Receipts, colour=Product))+
+  geom_line()+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Monthly alcohol duty receipts (£m)", limits=c(0,NA))+
+  scale_colour_manual(values=c("#ffc000", "#00b050", "#00b0f0","#7030a0"), name="")+
+  facet_wrap(~Product)+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)),
+        strip.background=element_blank(),
+        strip.text=element_text(face="bold", size=rel(1)))+
+  labs(title="Beer revenue was the most affected by the pandemic",
+       subtitle="Total monthly revenue reported by HMRC from alcohol duty without adjusting for inflation",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcRevDrinkRoll.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product!="Total"), aes(x=date, y=Receipts_roll, colour=Product))+
+  geom_line()+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Monthly alcohol duty receipts (£m)", limits=c(0,NA))+
+  scale_colour_manual(values=c("#ffc000", "#00b050", "#00b0f0","#7030a0"), name="")+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)),
+        strip.background=element_blank(),
+        strip.text=element_text(face="bold", size=rel(1)))+
+  labs(title="Beer revenue was the most affected by the pandemic",
+       subtitle="Rolling 12-month average of HMRC alcohol duty revenue without adjusting for inflation",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcRevDrinkRollAdj.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product!="Total"), aes(x=date, y=Receipts.Adj_roll, colour=Product))+
+  geom_line()+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Monthly alcohol duty receipts (£m)", limits=c(0,NA))+
+  scale_colour_manual(values=c("#ffc000", "#00b050", "#00b0f0","#7030a0"), name="")+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_markdown(face="bold", size=rel(1.2)),
+        strip.background=element_blank(),
+        strip.text=element_text(face="bold", size=rel(1)))+
+  labs(title="Duty revenue from wine and spirits *increased* in 2020",
+       subtitle="Rolling 12-month average of HMRC alcohol duty revenue adjusted to January 2021 prices",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcVol.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product=="Total"), aes(x=date, y=Clearances.Alcohol))+
+  geom_line(colour="Red3")+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Total alcohol volumes cleared for sale\n(millions of litres of ethanol)", limits=c(0,NA))+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)))+
+  labs(title="The overall volume of alcohol sold in the UK",
+       subtitle="Total alcohol volumes cleared for sale by HMRC. Wine and cider data is estimated\nassuming ABVs of 12.5% & 4.5%",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcVolRoll.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product=="Total"), aes(x=date, y=Clearances.Alcohol_roll))+
+  geom_line(colour="Red3")+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Total alcohol volumes cleared for sale\n(millions of litres of ethanol)", limits=c(0,NA))+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1.2)))+
+  labs(title="The overall volume of alcohol sold in the UK barely changed in 2020",
+       subtitle="Total alcohol volumes cleared for sale by HMRC. Wine and cider data is estimated\nassuming ABVs of 12.5% & 4.5%",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCAlcVolDrinkRoll.tiff", units="in", width=8, height=6, res=500)
+ggplot(data %>% filter(Product!="Total"), aes(x=date, y=Clearances.Alcohol_roll, colour=Product))+
+  geom_line()+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Total alcohol volumes cleared for sale\n(millions of litres of ethanol)", limits=c(0,NA))+
+  scale_colour_manual(values=c("#ffc000", "#00b050", "#00b0f0","#7030a0"), name="")+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_markdown(face="bold", size=rel(1.2)))+
+  labs(title="Wine and spirits *increased* their sales in 2020 at the expense of beer",
+       subtitle="Total alcohol volumes cleared for sale by HMRC. Wine and cider data is estimated\nassuming ABVs of 12.5% & 4.5%",
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
+agg_tiff("Outputs/HMRCSpiritsType.tiff", units="in", width=8, height=6, res=500)
+raw.spirits %>% 
+  gather(Product, AlcVol, c(2:5)) %>% 
+  mutate(date=as.Date(paste0("01-",substr(Month,1,6)), format="%d-%b-%y")) %>%
+  group_by(Product) %>% 
+  arrange(date) %>% 
+  mutate(AlcVol_roll=roll_mean(AlcVol, 12, align="right", fill=NA)) %>% 
+  ungroup() %>% 
+  mutate(Product=factor(Product, levels=c("Other", "OtherWhisky", "MaltWhisky", "RTDs"))) %>% 
+  ggplot()+
+  geom_line(aes(x=date, y=AlcVol_roll, colour=Product, group=Product))+
+  scale_x_date(name="", date_breaks="12 month", labels=datelabs)+
+  scale_y_continuous(name="Spirits volumes (of alcohol) cleared for sale (million litres)")+
+  scale_colour_manual(name="", labels=c("Other Spirits", "Blended & Grain Whisky", "Malt Whisky", 
+                                        "Spirit-Based Alcopops"), 
+                      values=c("#FF0000", "#00A08A", "#F2AD00", "#5BBCD6"))+
+  theme_classic()+
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1),
+        plot.title=element_text(face="bold", size=rel(1)))+
+  labs(title="Most spirits sold in the UK aren't whisky, and most whisky isn't malt whisky",
+       subtitle="Rolling 12-month average of spirits volumes (of alcohol) cleared for sale by HMRC by type", 
+       caption="Data from HMRC | Plot by @VictimOfMaths")
+dev.off()
+
