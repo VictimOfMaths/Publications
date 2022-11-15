@@ -1,0 +1,153 @@
+"Notes"	"Five-Year Age Groups"	"Five-Year Age Groups Code"	"Gender"	"Gender Code"	"Year"	"Year Code"	Deaths	Population	Crude Rate
+	"< 1 year"	"1"	"Female"	"F"	"2021 (provisional)"	"2021"	9011	1826869	493.2
+"Total"	"< 1 year"	"1"	"Female"	"F"			9011	1826869	493.2
+	"< 1 year"	"1"	"Male"	"M"	"2021 (provisional)"	"2021"	10909	1908141	571.7
+"Total"	"< 1 year"	"1"	"Male"	"M"			10909	1908141	571.7
+"Total"	"< 1 year"	"1"					19920	3735010	533.3
+	"1-4 years"	"1-4"	"Female"	"F"	"2021 (provisional)"	"2021"	1711	7613266	22.5
+"Total"	"1-4 years"	"1-4"	"Female"	"F"			1711	7613266	22.5
+	"1-4 years"	"1-4"	"Male"	"M"	"2021 (provisional)"	"2021"	2105	7953016	26.5
+"Total"	"1-4 years"	"1-4"	"Male"	"M"			2105	7953016	26.5
+"Total"	"1-4 years"	"1-4"					3816	15566282	24.5
+	"5-9 years"	"5-9"	"Female"	"F"	"2021 (provisional)"	"2021"	1031	9890958	10.4
+"Total"	"5-9 years"	"5-9"	"Female"	"F"			1031	9890958	10.4
+	"5-9 years"	"5-9"	"Male"	"M"	"2021 (provisional)"	"2021"	1375	10346753	13.3
+"Total"	"5-9 years"	"5-9"	"Male"	"M"			1375	10346753	13.3
+"Total"	"5-9 years"	"5-9"					2406	20237711	11.9
+	"10-14 years"	"10-14"	"Female"	"F"	"2021 (provisional)"	"2021"	1450	10159455	14.3
+"Total"	"10-14 years"	"10-14"	"Female"	"F"			1450	10159455	14.3
+	"10-14 years"	"10-14"	"Male"	"M"	"2021 (provisional)"	"2021"	2119	10594968	20.0
+"Total"	"10-14 years"	"10-14"	"Male"	"M"			2119	10594968	20.0
+"Total"	"10-14 years"	"10-14"					3569	20754423	17.2
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	3703	10266332	36.1
+"Total"	"15-19 years"	"15-19"	"Female"	"F"			3703	10266332	36.1
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	9704	10694597	90.7
+"Total"	"15-19 years"	"15-19"	"Male"	"M"			9704	10694597	90.7
+"Total"	"15-19 years"	"15-19"					13407	20960929	64.0
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	6693	10561909	63.4
+"Total"	"20-24 years"	"20-24"	"Female"	"F"			6693	10561909	63.4
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	18207	11032846	165.0
+"Total"	"20-24 years"	"20-24"	"Male"	"M"			18207	11032846	165.0
+"Total"	"20-24 years"	"20-24"					24900	21594755	115.3
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	9802	11356117	86.3
+"Total"	"25-29 years"	"25-29"	"Female"	"F"			9802	11356117	86.3
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	25393	11875126	213.8
+"Total"	"25-29 years"	"25-29"	"Male"	"M"			25393	11875126	213.8
+"Total"	"25-29 years"	"25-29"					35195	23231243	151.5
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	14562	11269150	129.2
+"Total"	"30-34 years"	"30-34"	"Female"	"F"			14562	11269150	129.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	32517	11569253	281.1
+"Total"	"30-34 years"	"30-34"	"Male"	"M"			32517	11569253	281.1
+"Total"	"30-34 years"	"30-34"					47079	22838403	206.1
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	18923	10890716	173.8
+"Total"	"35-39 years"	"35-39"	"Female"	"F"			18923	10890716	173.8
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	37480	10937588	342.7
+"Total"	"35-39 years"	"35-39"	"Male"	"M"			37480	10937588	342.7
+"Total"	"35-39 years"	"35-39"					56403	21828304	258.4
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	24427	10199608	239.5
+"Total"	"40-44 years"	"40-44"	"Female"	"F"			24427	10199608	239.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	44109	10108280	436.4
+"Total"	"40-44 years"	"40-44"	"Male"	"M"			44109	10108280	436.4
+"Total"	"40-44 years"	"40-44"					68536	20307888	337.5
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	31921	10097702	316.1
+"Total"	"45-49 years"	"45-49"	"Female"	"F"			31921	10097702	316.1
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	54223	9872904	549.2
+"Total"	"45-49 years"	"45-49"	"Male"	"M"			54223	9872904	549.2
+"Total"	"45-49 years"	"45-49"					86144	19970606	431.4
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	48342	10343739	467.4
+"Total"	"50-54 years"	"50-54"	"Female"	"F"			48342	10343739	467.4
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	81551	10051788	811.3
+"Total"	"50-54 years"	"50-54"	"Male"	"M"			81551	10051788	811.3
+"Total"	"50-54 years"	"50-54"					129893	20395527	636.9
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	75317	11091171	679.1
+"Total"	"55-59 years"	"55-59"	"Female"	"F"			75317	11091171	679.1
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	122291	10511928	1163.4
+"Total"	"55-59 years"	"55-59"	"Male"	"M"			122291	10511928	1163.4
+"Total"	"55-59 years"	"55-59"					197608	21603099	914.7
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	109893	10823072	1015.4
+"Total"	"60-64 years "	"60-64"	"Female"	"F"			109893	10823072	1015.4
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	170670	9977506	1710.5
+"Total"	"60-64 years "	"60-64"	"Male"	"M"			170670	9977506	1710.5
+"Total"	"60-64 years "	"60-64"					280563	20800578	1348.8
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	134816	9483316	1421.6
+"Total"	"65-69 years"	"65-69"	"Female"	"F"			134816	9483316	1421.6
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	196168	8390351	2338.0
+"Total"	"65-69 years"	"65-69"	"Male"	"M"			196168	8390351	2338.0
+"Total"	"65-69 years"	"65-69"					330984	17873667	1851.8
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	170509	7882542	2163.1
+"Total"	"70-74 years"	"70-74"	"Female"	"F"			170509	7882542	2163.1
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	222773	6793189	3279.4
+"Total"	"70-74 years"	"70-74"	"Male"	"M"			222773	6793189	3279.4
+"Total"	"70-74 years"	"70-74"					393282	14675731	2679.8
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	188622	5513149	3421.3
+"Total"	"75-79 years"	"75-79"	"Female"	"F"			188622	5513149	3421.3
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	220245	4473684	4923.1
+"Total"	"75-79 years"	"75-79"	"Male"	"M"			220245	4473684	4923.1
+"Total"	"75-79 years"	"75-79"					408867	9986833	4094.1
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	208642	3715123	5616.0
+"Total"	"80-84 years"	"80-84"	"Female"	"F"			208642	3715123	5616.0
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	212144	2749591	7715.5
+"Total"	"80-84 years"	"80-84"	"Male"	"M"			212144	2749591	7715.5
+"Total"	"80-84 years"	"80-84"					420786	6464714	6509.0
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	225125	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"	"Female"	"F"			225125	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	189775	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"	"Male"	"M"			189775	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"					414900	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Female"	"F"	"2021 (provisional)"	"2021"	206361	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"	"Female"	"F"			206361	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	130563	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"	"Male"	"M"			130563	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"					336924	Not Applicable	Not Applicable
+	"95-99 years"	"95-99"	"Female"	"F"	"2021 (provisional)"	"2021"	108624	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"	"Female"	"F"			108624	Not Applicable	Not Applicable
+	"95-99 years"	"95-99"	"Male"	"M"	"2021 (provisional)"	"2021"	46835	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"	"Male"	"M"			46835	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"					155459	Not Applicable	Not Applicable
+	"100+ years"	"100+"	"Female"	"F"	"2021 (provisional)"	"2021"	26615	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"	"Female"	"F"			26615	Not Applicable	Not Applicable
+	"100+ years"	"100+"	"Male"	"M"	"2021 (provisional)"	"2021"	6881	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"	"Male"	"M"			6881	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"					33496	Not Applicable	Not Applicable
+"Total"							3464137	329484123	1051.4
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Month"
+"Query Parameters:"
+"Title: CDCWonderAllCause21"
+"Five-Year Age Groups: < 1 year; 1-4 years; 5-9 years; 10-14 years; 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39"
+"years; 40-44 years; 45-49 years; 50-54 years; 55-59 years; 60-64 years ; 65-69 years; 70-74 years; 75-79 years; 80-84 years;"
+"85-89 years; 90-94 years; 95-99 years; 100+ years"
+"Gender: Female; Male"
+"Year/Month: 2021 (provisional)"
+"Group By: Five-Year Age Groups; Gender; Year"
+"Show Totals: True"
+"Show Zero Values: True"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Nov 15, 2022 8:32:23 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2020,"
+"and from provisional data for years 2021-2022, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Nov 15, 2022 8:32:23"
+"AM"
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when they include a subset of ages 85-100+ because populations are not"
+"available for those ages. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Ages 85-100."
+"2. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Not Stated."
+"3. The population figures for years 2021 and 2020 are single-race estimates of the July 1 resident population, from the Vintage"
+"2020 postcensal series released by the Census Bureau on July 27, 2021. The population figures for year 2019 are single-race"
+"estimates of the July 1 resident population, from the Vintage 2019 postcensal series released by the Census Bureau on June 25,"
+"2020. The population figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018"
+"postcensal series released by the Census Bureau on June 20, 2019."
+"4. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"5. Deaths occurring through October 22, 2022 as of November 06, 2022."

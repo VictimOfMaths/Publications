@@ -1,0 +1,1192 @@
+"Notes"	"Five-Year Age Groups"	"Five-Year Age Groups Code"	"Gender"	"Gender Code"	"Year"	"Year Code"	"Underlying Cause of death"	"Underlying Cause of death Code"	Deaths	Population	Crude Rate
+	"< 1 year"	"1"	"Female"	"F"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	16	1826869	Unreliable
+"Total"	"< 1 year"	"1"	"Female"	"F"	"2021 (provisional)"	"2021"			35	1826869	1.9
+"Total"	"< 1 year"	"1"	"Female"	"F"					35	1826869	1.9
+	"< 1 year"	"1"	"Male"	"M"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	15	1908141	Unreliable
+"Total"	"< 1 year"	"1"	"Male"	"M"	"2021 (provisional)"	"2021"			42	1908141	2.2
+"Total"	"< 1 year"	"1"	"Male"	"M"					42	1908141	2.2
+"Total"	"< 1 year"	"1"							77	3735010	2.1
+	"1-4 years"	"1-4"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	11	7613266	Unreliable
+	"1-4 years"	"1-4"	"Female"	"F"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	21	7613266	0.3
+	"1-4 years"	"1-4"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	21	7613266	0.3
+"Total"	"1-4 years"	"1-4"	"Female"	"F"	"2021 (provisional)"	"2021"			60	7613266	0.8
+"Total"	"1-4 years"	"1-4"	"Female"	"F"					60	7613266	0.8
+	"1-4 years"	"1-4"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	13	7953016	Unreliable
+	"1-4 years"	"1-4"	"Male"	"M"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	20	7953016	0.3
+	"1-4 years"	"1-4"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	21	7953016	0.3
+"Total"	"1-4 years"	"1-4"	"Male"	"M"	"2021 (provisional)"	"2021"			71	7953016	0.9
+"Total"	"1-4 years"	"1-4"	"Male"	"M"					71	7953016	0.9
+"Total"	"1-4 years"	"1-4"							131	15566282	0.8
+"Total"	"5-9 years"	"5-9"	"Female"	"F"	"2021 (provisional)"	"2021"			10	9890958	Unreliable
+"Total"	"5-9 years"	"5-9"	"Female"	"F"					10	9890958	Unreliable
+"Total"	"5-9 years"	"5-9"	"Male"	"M"	"2021 (provisional)"	"2021"			23	10346753	0.2
+"Total"	"5-9 years"	"5-9"	"Male"	"M"					23	10346753	0.2
+"Total"	"5-9 years"	"5-9"							33	20237711	0.2
+	"10-14 years"	"10-14"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	16	10159455	Unreliable
+	"10-14 years"	"10-14"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	14	10159455	Unreliable
+	"10-14 years"	"10-14"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	159	10159455	1.6
+	"10-14 years"	"10-14"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	44	10159455	0.4
+"Total"	"10-14 years"	"10-14"	"Female"	"F"	"2021 (provisional)"	"2021"			275	10159455	2.7
+"Total"	"10-14 years"	"10-14"	"Female"	"F"					275	10159455	2.7
+	"10-14 years"	"10-14"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	22	10594968	0.2
+	"10-14 years"	"10-14"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	157	10594968	1.5
+	"10-14 years"	"10-14"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	42	10594968	0.4
+	"10-14 years"	"10-14"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	22	10594968	0.2
+	"10-14 years"	"10-14"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	117	10594968	1.1
+"Total"	"10-14 years"	"10-14"	"Male"	"M"	"2021 (provisional)"	"2021"			390	10594968	3.7
+"Total"	"10-14 years"	"10-14"	"Male"	"M"					390	10594968	3.7
+"Total"	"10-14 years"	"10-14"							665	20754423	3.2
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	15	10266332	Unreliable
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	277	10266332	2.7
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	154	10266332	1.5
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	31	10266332	0.3
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	50	10266332	0.5
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	265	10266332	2.6
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	35	10266332	0.3
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	99	10266332	1.0
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	20	10266332	0.2
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	12	10266332	Unreliable
+	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	11	10266332	Unreliable
+"Total"	"15-19 years"	"15-19"	"Female"	"F"	"2021 (provisional)"	"2021"			1044	10266332	10.2
+"Total"	"15-19 years"	"15-19"	"Female"	"F"					1044	10266332	10.2
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	32	10694597	0.3
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	679	10694597	6.3
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	339	10694597	3.2
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	24	10694597	0.2
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	12	10694597	Unreliable
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	40	10694597	0.4
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	22	10694597	0.2
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	503	10694597	4.7
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	16	10694597	Unreliable
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	242	10694597	2.3
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	178	10694597	1.7
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	624	10694597	5.8
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	60	10694597	0.6
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	34	10694597	0.3
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by crashing of motor vehicle"	"X82"	12	10694597	Unreliable
+	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	14	10694597	Unreliable
+"Total"	"15-19 years"	"15-19"	"Male"	"M"	"2021 (provisional)"	"2021"			2896	10694597	27.1
+"Total"	"15-19 years"	"15-19"	"Male"	"M"					2896	10694597	27.1
+"Total"	"15-19 years"	"15-19"							3940	20960929	18.8
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	12	10561909	Unreliable
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	15	10561909	Unreliable
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	88	10561909	0.8
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	734	10561909	6.9
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	708	10561909	6.7
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	12	10561909	Unreliable
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	34	10561909	0.3
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	13	10561909	Unreliable
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	82	10561909	0.8
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	17	10561909	Unreliable
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	243	10561909	2.3
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	68	10561909	0.6
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	13	10561909	Unreliable
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	153	10561909	1.4
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	36	10561909	0.3
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	20	10561909	0.2
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	30	10561909	0.3
+	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	32	10561909	0.3
+"Total"	"20-24 years"	"20-24"	"Female"	"F"	"2021 (provisional)"	"2021"			2424	10561909	23.0
+"Total"	"20-24 years"	"20-24"	"Female"	"F"					2424	10561909	23.0
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	11	11032846	Unreliable
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	17	11032846	Unreliable
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	21	11032846	0.2
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	12	11032846	Unreliable
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	161	11032846	1.5
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	2071	11032846	18.8
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1469	11032846	13.3
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	60	11032846	0.5
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	32	11032846	0.3
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	89	11032846	0.8
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	48	11032846	0.4
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified chemicals and noxious substances"	"X69"	11	11032846	Unreliable
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	837	11032846	7.6
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	26	11032846	0.2
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	548	11032846	5.0
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	221	11032846	2.0
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1402	11032846	12.7
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by smoke, fire and flames"	"X76"	14	11032846	Unreliable
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	25	11032846	0.2
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	107	11032846	1.0
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	60	11032846	0.5
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by crashing of motor vehicle"	"X82"	19	11032846	Unreliable
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	10	11032846	Unreliable
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	56	11032846	0.5
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	62	11032846	0.6
+	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	10	11032846	Unreliable
+"Total"	"20-24 years"	"20-24"	"Male"	"M"	"2021 (provisional)"	"2021"			7490	11032846	67.9
+"Total"	"20-24 years"	"20-24"	"Male"	"M"					7490	11032846	67.9
+"Total"	"20-24 years"	"20-24"							9914	21594755	45.9
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	37	11356117	0.3
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	36	11356117	0.3
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	41	11356117	0.4
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	28	11356117	0.2
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	16	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	22	11356117	0.2
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	64	11356117	0.6
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	12	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	14	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	25	11356117	0.2
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	141	11356117	1.2
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	1110	11356117	9.8
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1299	11356117	11.4
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	27	11356117	0.2
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	27	11356117	0.2
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	10	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	86	11356117	0.8
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	11	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	295	11356117	2.6
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	12	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	87	11356117	0.8
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	10	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	196	11356117	1.7
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	10	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	22	11356117	0.2
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	19	11356117	Unreliable
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	49	11356117	0.4
+	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	56	11356117	0.5
+"Total"	"25-29 years"	"25-29"	"Female"	"F"	"2021 (provisional)"	"2021"			3834	11356117	33.8
+"Total"	"25-29 years"	"25-29"	"Female"	"F"					3834	11356117	33.8
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	103	11875126	0.9
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	93	11875126	0.8
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	11	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	13	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	10	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	52	11875126	0.4
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	30	11875126	0.3
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	21	11875126	0.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	59	11875126	0.5
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	130	11875126	1.1
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	28	11875126	0.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	24	11875126	0.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	40	11875126	0.3
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	12	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	384	11875126	3.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	3519	11875126	29.6
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	3173	11875126	26.7
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	103	11875126	0.9
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	28	11875126	0.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	12	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	82	11875126	0.7
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	60	11875126	0.5
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified chemicals and noxious substances"	"X69"	20	11875126	0.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	1175	11875126	9.9
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	33	11875126	0.3
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	527	11875126	4.4
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	167	11875126	1.4
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1214	11875126	10.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by smoke, fire and flames"	"X76"	18	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	52	11875126	0.4
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	113	11875126	1.0
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	77	11875126	0.6
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by crashing of motor vehicle"	"X82"	11	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	17	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	12	11875126	Unreliable
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	138	11875126	1.2
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	89	11875126	0.7
+	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	22	11875126	0.2
+"Total"	"25-29 years"	"25-29"	"Male"	"M"	"2021 (provisional)"	"2021"			11729	11875126	98.8
+"Total"	"25-29 years"	"25-29"	"Male"	"M"					11729	11875126	98.8
+"Total"	"25-29 years"	"25-29"							15563	23231243	67.0
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	98	11269150	0.9
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	97	11269150	0.9
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	70	11269150	0.6
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	36	11269150	0.3
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	42	11269150	0.4
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	63	11269150	0.6
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	260	11269150	2.3
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	57	11269150	0.5
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	39	11269150	0.3
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	89	11269150	0.8
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	15	11269150	Unreliable
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	227	11269150	2.0
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	1401	11269150	12.4
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1948	11269150	17.3
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	57	11269150	0.5
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X60"	10	11269150	Unreliable
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	33	11269150	0.3
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	13	11269150	Unreliable
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	94	11269150	0.8
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	14	11269150	Unreliable
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	324	11269150	2.9
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	67	11269150	0.6
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	15	11269150	Unreliable
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	167	11269150	1.5
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	33	11269150	0.3
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	26	11269150	0.2
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	10	11269150	Unreliable
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	66	11269150	0.6
+	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	73	11269150	0.6
+"Total"	"30-34 years"	"30-34"	"Female"	"F"	"2021 (provisional)"	"2021"			5538	11269150	49.1
+"Total"	"30-34 years"	"30-34"	"Female"	"F"					5538	11269150	49.1
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	219	11569253	1.9
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	243	11569253	2.1
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	14	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	28	11569253	0.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	12	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	10	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	14	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	26	11569253	0.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	96	11569253	0.8
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	28	11569253	0.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	28	11569253	0.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	77	11569253	0.7
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	442	11569253	3.8
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	82	11569253	0.7
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	54	11569253	0.5
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	140	11569253	1.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	13	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	648	11569253	5.6
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	4395	11569253	38.0
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	4307	11569253	37.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	154	11569253	1.3
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	30	11569253	0.3
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	16	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	123	11569253	1.1
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	49	11569253	0.4
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	1306	11569253	11.3
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	35	11569253	0.3
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	497	11569253	4.3
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	136	11569253	1.2
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1138	11569253	9.8
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by smoke, fire and flames"	"X76"	16	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	73	11569253	0.6
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	87	11569253	0.8
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	54	11569253	0.5
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by crashing of motor vehicle"	"X82"	16	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other specified means"	"X83"	10	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	12	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	13	11569253	Unreliable
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	172	11569253	1.5
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	152	11569253	1.3
+	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	11	11569253	Unreliable
+"Total"	"30-34 years"	"30-34"	"Male"	"M"	"2021 (provisional)"	"2021"			15047	11569253	130.1
+"Total"	"30-34 years"	"30-34"	"Male"	"M"					15047	11569253	130.1
+"Total"	"30-34 years"	"30-34"							20585	22838403	90.1
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	131	10890716	1.2
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	151	10890716	1.4
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	13	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	11	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	12	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	12	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	77	10890716	0.7
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	26	10890716	0.2
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	37	10890716	0.3
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	78	10890716	0.7
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	506	10890716	4.6
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	75	10890716	0.7
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	52	10890716	0.5
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	202	10890716	1.9
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	18	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	343	10890716	3.1
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	1324	10890716	12.2
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	2096	10890716	19.2
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	57	10890716	0.5
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	42	10890716	0.4
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	11	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	110	10890716	1.0
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	13	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	280	10890716	2.6
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	10	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	74	10890716	0.7
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	15	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	201	10890716	1.8
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	13	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	28	10890716	0.3
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	18	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	12	10890716	Unreliable
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	72	10890716	0.7
+	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	91	10890716	0.8
+"Total"	"35-39 years"	"35-39"	"Female"	"F"	"2021 (provisional)"	"2021"			6276	10890716	57.6
+"Total"	"35-39 years"	"35-39"	"Female"	"F"					6276	10890716	57.6
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	339	10937588	3.1
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	374	10937588	3.4
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	13	10937588	Unreliable
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	35	10937588	0.3
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	15	10937588	Unreliable
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	10	10937588	Unreliable
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	24	10937588	0.2
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	24	10937588	0.2
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	126	10937588	1.2
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	29	10937588	0.3
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	65	10937588	0.6
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	136	10937588	1.2
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	871	10937588	8.0
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	112	10937588	1.0
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	125	10937588	1.1
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	258	10937588	2.4
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	23	10937588	0.2
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	832	10937588	7.6
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	4174	10937588	38.2
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	4442	10937588	40.6
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	225	10937588	2.1
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	38	10937588	0.3
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	16	10937588	Unreliable
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	103	10937588	0.9
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	67	10937588	0.6
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	1173	10937588	10.7
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	35	10937588	0.3
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	403	10937588	3.7
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	145	10937588	1.3
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1051	10937588	9.6
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	61	10937588	0.6
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	77	10937588	0.7
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	58	10937588	0.5
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by crashing of motor vehicle"	"X82"	11	10937588	Unreliable
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by unspecified means"	"X84"	11	10937588	Unreliable
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	16	10937588	Unreliable
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	35	10937588	0.3
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	148	10937588	1.4
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	148	10937588	1.4
+	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	28	10937588	0.3
+"Total"	"35-39 years"	"35-39"	"Male"	"M"	"2021 (provisional)"	"2021"			15947	10937588	145.8
+"Total"	"35-39 years"	"35-39"	"Male"	"M"					15947	10937588	145.8
+"Total"	"35-39 years"	"35-39"							22223	21828304	101.8
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	164	10199608	1.6
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	174	10199608	1.7
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	16	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	12	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	19	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	49	10199608	0.5
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	25	10199608	0.2
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	47	10199608	0.5
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	85	10199608	0.8
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	588	10199608	5.8
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	67	10199608	0.7
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	91	10199608	0.9
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	291	10199608	2.9
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	23	10199608	0.2
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	392	10199608	3.8
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	1209	10199608	11.9
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1878	10199608	18.4
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	71	10199608	0.7
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	52	10199608	0.5
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	13	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	109	10199608	1.1
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	18	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	233	10199608	2.3
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	74	10199608	0.7
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	11	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	186	10199608	1.8
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	17	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	22	10199608	0.2
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	11	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	16	10199608	Unreliable
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	56	10199608	0.5
+	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	69	10199608	0.7
+"Total"	"40-44 years"	"40-44"	"Female"	"F"	"2021 (provisional)"	"2021"			6171	10199608	60.5
+"Total"	"40-44 years"	"40-44"	"Female"	"F"					6171	10199608	60.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	399	10108280	3.9
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	479	10108280	4.7
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	24	10108280	0.2
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	45	10108280	0.4
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	14	10108280	Unreliable
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, harmful use"	"F14.1"	14	10108280	Unreliable
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	19	10108280	Unreliable
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	32	10108280	0.3
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	47	10108280	0.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	116	10108280	1.1
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	43	10108280	0.4
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	64	10108280	0.6
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	150	10108280	1.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	1125	10108280	11.1
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	134	10108280	1.3
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	186	10108280	1.8
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	466	10108280	4.6
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	31	10108280	0.3
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	907	10108280	9.0
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	3692	10108280	36.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	3869	10108280	38.3
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	202	10108280	2.0
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	32	10108280	0.3
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	12	10108280	Unreliable
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	115	10108280	1.1
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	55	10108280	0.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	1002	10108280	9.9
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	21	10108280	0.2
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	394	10108280	3.9
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	144	10108280	1.4
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	946	10108280	9.4
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by smoke, fire and flames"	"X76"	12	10108280	Unreliable
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	76	10108280	0.8
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	63	10108280	0.6
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	49	10108280	0.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	15	10108280	Unreliable
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	19	10108280	Unreliable
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	148	10108280	1.5
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	106	10108280	1.0
+	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	26	10108280	0.3
+"Total"	"40-44 years"	"40-44"	"Male"	"M"	"2021 (provisional)"	"2021"			15369	10108280	152.0
+"Total"	"40-44 years"	"40-44"	"Male"	"M"					15369	10108280	152.0
+"Total"	"40-44 years"	"40-44"							21540	20307888	106.1
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	163	10097702	1.6
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	217	10097702	2.1
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	15	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	13	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	12	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	61	10097702	0.6
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	27	10097702	0.3
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	40	10097702	0.4
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	86	10097702	0.9
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	741	10097702	7.3
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	89	10097702	0.9
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	85	10097702	0.8
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	407	10097702	4.0
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	19	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	393	10097702	3.9
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	992	10097702	9.8
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1567	10097702	15.5
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	68	10097702	0.7
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X60"	12	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	51	10097702	0.5
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	13	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	148	10097702	1.5
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	20	10097702	0.2
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	214	10097702	2.1
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	10	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	79	10097702	0.8
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	201	10097702	2.0
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	10	10097702	Unreliable
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	20	10097702	0.2
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	20	10097702	0.2
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	54	10097702	0.5
+	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	77	10097702	0.8
+"Total"	"45-49 years"	"45-49"	"Female"	"F"	"2021 (provisional)"	"2021"			6013	10097702	59.5
+"Total"	"45-49 years"	"45-49"	"Female"	"F"					6013	10097702	59.5
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	520	9872904	5.3
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	583	9872904	5.9
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	16	9872904	Unreliable
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	60	9872904	0.6
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	11	9872904	Unreliable
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	12	9872904	Unreliable
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	30	9872904	0.3
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	36	9872904	0.4
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	119	9872904	1.2
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	34	9872904	0.3
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	73	9872904	0.7
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	148	9872904	1.5
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	1515	9872904	15.3
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	154	9872904	1.6
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	192	9872904	1.9
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	632	9872904	6.4
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	25	9872904	0.3
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	933	9872904	9.5
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	2925	9872904	29.6
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	3021	9872904	30.6
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	262	9872904	2.7
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	38	9872904	0.4
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	15	9872904	Unreliable
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	120	9872904	1.2
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	73	9872904	0.7
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	829	9872904	8.4
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	24	9872904	0.2
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	374	9872904	3.8
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	139	9872904	1.4
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	910	9872904	9.2
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	80	9872904	0.8
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	58	9872904	0.6
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	39	9872904	0.4
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Assault by drugs, medicaments and biological substances"	"X85"	12	9872904	Unreliable
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	19	9872904	Unreliable
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	126	9872904	1.3
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	96	9872904	1.0
+	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	24	9872904	0.2
+"Total"	"45-49 years"	"45-49"	"Male"	"M"	"2021 (provisional)"	"2021"			14380	9872904	145.7
+"Total"	"45-49 years"	"45-49"	"Male"	"M"					14380	9872904	145.7
+"Total"	"45-49 years"	"45-49"							20393	19970606	102.1
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	214	10343739	2.1
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	238	10343739	2.3
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	22	10343739	0.2
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	11	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	14	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	19	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	54	10343739	0.5
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	15	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	49	10343739	0.5
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	88	10343739	0.9
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	1078	10343739	10.4
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	131	10343739	1.3
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	127	10343739	1.2
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	702	10343739	6.8
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	13	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	401	10343739	3.9
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	1162	10343739	11.2
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1571	10343739	15.2
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	74	10343739	0.7
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	61	10343739	0.6
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	16	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	182	10343739	1.8
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	24	10343739	0.2
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	212	10343739	2.0
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	11	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	107	10343739	1.0
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	247	10343739	2.4
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	19	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	29	10343739	0.3
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	10	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	17	10343739	Unreliable
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	52	10343739	0.5
+	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	70	10343739	0.7
+"Total"	"50-54 years"	"50-54"	"Female"	"F"	"2021 (provisional)"	"2021"			7144	10343739	69.1
+"Total"	"50-54 years"	"50-54"	"Female"	"F"					7144	10343739	69.1
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	672	10051788	6.7
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	781	10051788	7.8
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	25	10051788	0.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	110	10051788	1.1
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, harmful use"	"F11.1"	14	10051788	Unreliable
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	11	10051788	Unreliable
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, harmful use"	"F14.1"	24	10051788	0.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	24	10051788	0.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	50	10051788	0.5
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	50	10051788	0.5
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	122	10051788	1.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	29	10051788	0.3
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	101	10051788	1.0
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	169	10051788	1.7
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	2302	10051788	22.9
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	237	10051788	2.4
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	226	10051788	2.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1097	10051788	10.9
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	19	10051788	Unreliable
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	1107	10051788	11.0
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	3192	10051788	31.8
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	2851	10051788	28.4
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	238	10051788	2.4
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	42	10051788	0.4
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	25	10051788	0.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	112	10051788	1.1
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	78	10051788	0.8
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	717	10051788	7.1
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	20	10051788	0.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	416	10051788	4.1
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	178	10051788	1.8
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1055	10051788	10.5
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	92	10051788	0.9
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	61	10051788	0.6
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	42	10051788	0.4
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	25	10051788	0.2
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	140	10051788	1.4
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	103	10051788	1.0
+	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	19	10051788	Unreliable
+"Total"	"50-54 years"	"50-54"	"Male"	"M"	"2021 (provisional)"	"2021"			16666	10051788	165.8
+"Total"	"50-54 years"	"50-54"	"Male"	"M"					16666	10051788	165.8
+"Total"	"50-54 years"	"50-54"							23810	20395527	116.7
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	263	11091171	2.4
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	311	11091171	2.8
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	38	11091171	0.3
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, harmful use"	"F14.1"	10	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	13	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	15	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	10	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	47	11091171	0.4
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	13	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	32	11091171	0.3
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	98	11091171	0.9
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	1433	11091171	12.9
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	95	11091171	0.9
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	138	11091171	1.2
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	11	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1082	11091171	9.8
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	13	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	370	11091171	3.3
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	1191	11091171	10.7
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1548	11091171	14.0
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	88	11091171	0.8
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X60"	10	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	65	11091171	0.6
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	22	11091171	0.2
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	161	11091171	1.5
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	29	11091171	0.3
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	204	11091171	1.8
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	15	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	95	11091171	0.9
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	12	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	229	11091171	2.1
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	17	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	27	11091171	0.2
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	17	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	17	11091171	Unreliable
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	63	11091171	0.6
+	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	52	11091171	0.5
+"Total"	"55-59 years"	"55-59"	"Female"	"F"	"2021 (provisional)"	"2021"			7915	11091171	71.4
+"Total"	"55-59 years"	"55-59"	"Female"	"F"					7915	11091171	71.4
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	871	10511928	8.3
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	1040	10511928	9.9
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	47	10511928	0.4
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	118	10511928	1.1
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	11	10511928	Unreliable
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, harmful use"	"F14.1"	25	10511928	0.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	30	10511928	0.3
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	55	10511928	0.5
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	57	10511928	0.5
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	106	10511928	1.0
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	42	10511928	0.4
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	91	10511928	0.9
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	186	10511928	1.8
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	3041	10511928	28.9
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	245	10511928	2.3
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	341	10511928	3.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1703	10511928	16.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	21	10511928	0.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	1141	10511928	10.9
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	3299	10511928	31.4
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	2645	10511928	25.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	262	10511928	2.5
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	49	10511928	0.5
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	26	10511928	0.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	125	10511928	1.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	58	10511928	0.6
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	669	10511928	6.4
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	36	10511928	0.3
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	481	10511928	4.6
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	195	10511928	1.9
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1033	10511928	9.8
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by smoke, fire and flames"	"X76"	18	10511928	Unreliable
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	87	10511928	0.8
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	51	10511928	0.5
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	29	10511928	0.3
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	20	10511928	0.2
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	118	10511928	1.1
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	91	10511928	0.9
+	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	30	10511928	0.3
+"Total"	"55-59 years"	"55-59"	"Male"	"M"	"2021 (provisional)"	"2021"			18603	10511928	177.0
+"Total"	"55-59 years"	"55-59"	"Male"	"M"					18603	10511928	177.0
+"Total"	"55-59 years"	"55-59"							26518	21603099	122.8
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	256	10823072	2.4
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	293	10823072	2.7
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	35	10823072	0.3
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	13	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	14	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	23	10823072	0.2
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	36	10823072	0.3
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	11	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	36	10823072	0.3
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	93	10823072	0.9
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	1382	10823072	12.8
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	117	10823072	1.1
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	159	10823072	1.5
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	35	10823072	0.3
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1352	10823072	12.5
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	19	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	324	10823072	3.0
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	828	10823072	7.7
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1055	10823072	9.7
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	62	10823072	0.6
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	59	10823072	0.5
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	34	10823072	0.3
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	160	10823072	1.5
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	14	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	133	10823072	1.2
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	13	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	86	10823072	0.8
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	10	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	189	10823072	1.7
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	21	10823072	0.2
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	19	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	10	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	11	10823072	Unreliable
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	49	10823072	0.5
+	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	49	10823072	0.5
+"Total"	"60-64 years "	"60-64"	"Female"	"F"	"2021 (provisional)"	"2021"			7099	10823072	65.6
+"Total"	"60-64 years "	"60-64"	"Female"	"F"					7099	10823072	65.6
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	910	9977506	9.1
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	1035	9977506	10.4
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	55	9977506	0.6
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state with delirium"	"F10.4"	10	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, amnesic syndrome"	"F10.6"	10	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	18	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	134	9977506	1.3
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	16	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, harmful use"	"F14.1"	24	9977506	0.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	28	9977506	0.3
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	69	9977506	0.7
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	62	9977506	0.6
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	116	9977506	1.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	31	9977506	0.3
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	70	9977506	0.7
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	182	9977506	1.8
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	3020	9977506	30.3
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	259	9977506	2.6
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	322	9977506	3.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Chronic hepatitis, unspecified"	"K73.9"	11	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	2077	9977506	20.8
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	23	9977506	0.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	894	9977506	9.0
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	2518	9977506	25.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	1917	9977506	19.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	203	9977506	2.0
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	34	9977506	0.3
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	26	9977506	0.3
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	106	9977506	1.1
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	61	9977506	0.6
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	534	9977506	5.4
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	20	9977506	0.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	424	9977506	4.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	193	9977506	1.9
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1037	9977506	10.4
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by smoke, fire and flames"	"X76"	18	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	74	9977506	0.7
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	58	9977506	0.6
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	32	9977506	0.3
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by crashing of motor vehicle"	"X82"	10	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	12	9977506	Unreliable
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	116	9977506	1.2
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	65	9977506	0.7
+	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	16	9977506	Unreliable
+"Total"	"60-64 years "	"60-64"	"Male"	"M"	"2021 (provisional)"	"2021"			16945	9977506	169.8
+"Total"	"60-64 years "	"60-64"	"Male"	"M"					16945	9977506	169.8
+"Total"	"60-64 years "	"60-64"							24044	20800578	115.6
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	173	9483316	1.8
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	238	9483316	2.5
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	11	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	22	9483316	0.2
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	12	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	22	9483316	0.2
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	11	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	22	9483316	0.2
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	41	9483316	0.4
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	890	9483316	9.4
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	62	9483316	0.7
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	88	9483316	0.9
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	49	9483316	0.5
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Biliary cirrhosis, unspecified"	"K74.5"	11	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1422	9483316	15.0
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	21	9483316	0.2
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	142	9483316	1.5
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	391	9483316	4.1
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	448	9483316	4.7
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	51	9483316	0.5
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	34	9483316	0.4
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	14	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	117	9483316	1.2
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	17	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	93	9483316	1.0
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	20	9483316	0.2
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	70	9483316	0.7
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	150	9483316	1.6
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	20	9483316	0.2
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	15	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent"	"Y11"	11	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	12	9483316	Unreliable
+	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	26	9483316	0.3
+"Total"	"65-69 years"	"65-69"	"Female"	"F"	"2021 (provisional)"	"2021"			4823	9483316	50.9
+"Total"	"65-69 years"	"65-69"	"Female"	"F"					4823	9483316	50.9
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	618	8390351	7.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	822	8390351	9.8
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	53	8390351	0.6
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state with delirium"	"F10.4"	11	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, amnesic syndrome"	"F10.6"	12	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	43	8390351	0.5
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	101	8390351	1.2
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of opioids, unspecified mental and behavioural disorder"	"F11.9"	11	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, harmful use"	"F14.1"	14	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of cocaine, unspecified mental and behavioural disorder"	"F14.9"	27	8390351	0.3
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	32	8390351	0.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder"	"F15.9"	20	8390351	0.2
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	61	8390351	0.7
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, unspecified mental and behavioural disorder"	"F19.9"	16	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	34	8390351	0.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	88	8390351	1.0
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	2323	8390351	27.7
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	158	8390351	1.9
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	226	8390351	2.7
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Chronic hepatitis, unspecified"	"K73.9"	10	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1988	8390351	23.7
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	18	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	455	8390351	5.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	1350	8390351	16.1
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	913	8390351	10.9
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	119	8390351	1.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	22	8390351	0.3
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	22	8390351	0.3
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	94	8390351	1.1
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	36	8390351	0.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	290	8390351	3.5
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	21	8390351	0.3
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	379	8390351	4.5
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	159	8390351	1.9
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	954	8390351	11.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	64	8390351	0.8
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	58	8390351	0.7
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	17	8390351	Unreliable
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	46	8390351	0.5
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	34	8390351	0.4
+	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"	"Sequelae of assault"	"Y87.1"	26	8390351	0.3
+"Total"	"65-69 years"	"65-69"	"Male"	"M"	"2021 (provisional)"	"2021"			11849	8390351	141.2
+"Total"	"65-69 years"	"65-69"	"Male"	"M"					11849	8390351	141.2
+"Total"	"65-69 years"	"65-69"							16672	17873667	93.3
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	84	7882542	1.1
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	108	7882542	1.4
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	25	7882542	0.3
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	21	7882542	0.3
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	12	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	27	7882542	0.3
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	490	7882542	6.2
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	27	7882542	0.3
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	54	7882542	0.7
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	63	7882542	0.8
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Biliary cirrhosis, unspecified"	"K74.5"	23	7882542	0.3
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1433	7882542	18.2
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics"	"X40"	13	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	53	7882542	0.7
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	85	7882542	1.1
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	167	7882542	2.1
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	18	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	28	7882542	0.4
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	19	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	91	7882542	1.2
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	14	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	54	7882542	0.7
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	47	7882542	0.6
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	108	7882542	1.4
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	11	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	13	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	11	7882542	Unreliable
+	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	16	7882542	Unreliable
+"Total"	"70-74 years"	"70-74"	"Female"	"F"	"2021 (provisional)"	"2021"			3200	7882542	40.6
+"Total"	"70-74 years"	"70-74"	"Female"	"F"					3200	7882542	40.6
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	310	6793189	4.6
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	401	6793189	5.9
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	35	6793189	0.5
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state with delirium"	"F10.4"	12	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	58	6793189	0.9
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	68	6793189	1.0
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of other stimulants, including caffeine, harmful use"	"F15.1"	10	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use"	"F19.1"	22	6793189	0.3
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic fatty liver"	"K70.0"	23	6793189	0.3
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	33	6793189	0.5
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	1326	6793189	19.5
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	91	6793189	1.3
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	120	6793189	1.8
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	11	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1737	6793189	25.6
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	125	6793189	1.8
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	417	6793189	6.1
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	279	6793189	4.1
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	50	6793189	0.7
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	14	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	15	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	61	6793189	0.9
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	30	6793189	0.4
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	187	6793189	2.8
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by drowning and submersion"	"X71"	13	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	396	6793189	5.8
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	135	6793189	2.0
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	1022	6793189	15.0
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	40	6793189	0.6
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	31	6793189	0.5
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping or lying before moving object"	"X81"	15	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent"	"Y12"	17	6793189	Unreliable
+	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"	"Poisoning by and exposure to other and unspecified drugs, medicaments and biological substances, undetermined intent"	"Y14"	11	6793189	Unreliable
+"Total"	"70-74 years"	"70-74"	"Male"	"M"	"2021 (provisional)"	"2021"			7225	6793189	106.4
+"Total"	"70-74 years"	"70-74"	"Male"	"M"					7225	6793189	106.4
+"Total"	"70-74 years"	"70-74"							10425	14675731	71.0
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	52	5513149	0.9
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	53	5513149	1.0
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	22	5513149	0.4
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	13	5513149	Unreliable
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	233	5513149	4.2
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	17	5513149	Unreliable
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	18	5513149	Unreliable
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	46	5513149	0.8
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Biliary cirrhosis, unspecified"	"K74.5"	12	5513149	Unreliable
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1231	5513149	22.3
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	16	5513149	Unreliable
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	29	5513149	0.5
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	58	5513149	1.1
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	23	5513149	0.4
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	13	5513149	Unreliable
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	53	5513149	1.0
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	39	5513149	0.7
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	36	5513149	0.7
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	75	5513149	1.4
+	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	12	5513149	Unreliable
+"Total"	"75-79 years"	"75-79"	"Female"	"F"	"2021 (provisional)"	"2021"			2153	5513149	39.1
+"Total"	"75-79 years"	"75-79"	"Female"	"F"					2153	5513149	39.1
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	140	4473684	3.1
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	171	4473684	3.8
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, withdrawal state"	"F10.3"	15	4473684	Unreliable
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, amnesic syndrome"	"F10.6"	10	4473684	Unreliable
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	50	4473684	1.1
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	32	4473684	0.7
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatitis"	"K70.1"	15	4473684	Unreliable
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	669	4473684	15.0
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	41	4473684	0.9
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	56	4473684	1.3
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	12	4473684	Unreliable
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	1270	4473684	28.4
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X41"	30	4473684	0.7
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	99	4473684	2.2
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	96	4473684	2.1
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to alcohol"	"X45"	10	4473684	Unreliable
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified"	"X61"	14	4473684	Unreliable
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X62"	12	4473684	Unreliable
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	33	4473684	0.7
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	35	4473684	0.8
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	109	4473684	2.4
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	353	4473684	7.9
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	108	4473684	2.4
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	811	4473684	18.1
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	26	4473684	0.6
+	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	22	4473684	0.5
+"Total"	"75-79 years"	"75-79"	"Male"	"M"	"2021 (provisional)"	"2021"			4362	4473684	97.5
+"Total"	"75-79 years"	"75-79"	"Male"	"M"					4362	4473684	97.5
+"Total"	"75-79 years"	"75-79"							6515	9986833	65.2
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	24	3715123	0.6
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	18	3715123	Unreliable
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	18	3715123	Unreliable
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	98	3715123	2.6
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	44	3715123	1.2
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Biliary cirrhosis, unspecified"	"K74.5"	13	3715123	Unreliable
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	870	3715123	23.4
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	52	3715123	1.4
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	32	3715123	0.9
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	17	3715123	Unreliable
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	23	3715123	0.6
+	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	34	3715123	0.9
+"Total"	"80-84 years"	"80-84"	"Female"	"F"	"2021 (provisional)"	"2021"			1373	3715123	37.0
+"Total"	"80-84 years"	"80-84"	"Female"	"F"					1373	3715123	37.0
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	68	2749591	2.5
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	62	2749591	2.3
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	33	2749591	1.2
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, unspecified mental and behavioural disorder"	"F10.9"	12	2749591	Unreliable
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	311	2749591	11.3
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic hepatic failure"	"K70.4"	23	2749591	0.8
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic liver disease, unspecified"	"K70.9"	20	2749591	0.7
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	10	2749591	Unreliable
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	829	2749591	30.1
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified"	"X42"	25	2749591	0.9
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	54	2749591	2.0
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	20	2749591	0.7
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	19	2749591	Unreliable
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	61	2749591	2.2
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	289	2749591	10.5
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	86	2749591	3.1
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	651	2749591	23.7
+	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	19	2749591	Unreliable
+"Total"	"80-84 years"	"80-84"	"Male"	"M"	"2021 (provisional)"	"2021"			2694	2749591	98.0
+"Total"	"80-84 years"	"80-84"	"Male"	"M"					2694	2749591	98.0
+"Total"	"80-84 years"	"80-84"							4067	6464714	62.9
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	20	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	35	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Primary biliary cirrhosis"	"K74.3"	30	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Biliary cirrhosis, unspecified"	"K74.5"	12	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	523	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	35	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	18	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	12	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	15	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"	"Female"	"F"	"2021 (provisional)"	"2021"			786	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"	"Female"	"F"					786	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, harmful use"	"F10.1"	25	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, dependence syndrome"	"F10.2"	25	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	29	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	128	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	472	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	34	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	12	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	10	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	47	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	175	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	61	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	378	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by sharp object"	"X78"	12	Not Applicable	Not Applicable
+	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by jumping from a high place"	"X80"	12	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"	"Male"	"M"	"2021 (provisional)"	"2021"			1507	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"	"Male"	"M"					1507	Not Applicable	Not Applicable
+"Total"	"85-89 years"	"85-89"							2293	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	250	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Female"	"F"	"2021 (provisional)"	"2021"	"Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X44"	23	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Female"	"F"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	10	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"	"Female"	"F"	"2021 (provisional)"	"2021"			375	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"	"Female"	"F"					375	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Mental and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder"	"F10.7"	14	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Alcoholic cirrhosis of liver"	"K70.3"	31	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	183	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances"	"X64"	10	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-poisoning by and exposure to other gases and vapours"	"X67"	14	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by hanging, strangulation and suffocation"	"X70"	26	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	99	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by rifle, shotgun and larger firearm discharge"	"X73"	29	Not Applicable	Not Applicable
+	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	188	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"	"Male"	"M"	"2021 (provisional)"	"2021"			653	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"	"Male"	"M"					653	Not Applicable	Not Applicable
+"Total"	"90-94 years"	"90-94"							1028	Not Applicable	Not Applicable
+	"95-99 years"	"95-99"	"Female"	"F"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	59	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"	"Female"	"F"	"2021 (provisional)"	"2021"			86	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"	"Female"	"F"					86	Not Applicable	Not Applicable
+	"95-99 years"	"95-99"	"Male"	"M"	"2021 (provisional)"	"2021"	"Other and unspecified cirrhosis of liver"	"K74.6"	37	Not Applicable	Not Applicable
+	"95-99 years"	"95-99"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by handgun discharge"	"X72"	24	Not Applicable	Not Applicable
+	"95-99 years"	"95-99"	"Male"	"M"	"2021 (provisional)"	"2021"	"Intentional self-harm by other and unspecified firearm discharge"	"X74"	33	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"	"Male"	"M"	"2021 (provisional)"	"2021"			133	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"	"Male"	"M"					133	Not Applicable	Not Applicable
+"Total"	"95-99 years"	"95-99"							219	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"	"Female"	"F"	"2021 (provisional)"	"2021"			10	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"	"Female"	"F"					10	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"	"Male"	"M"	"2021 (provisional)"	"2021"			16	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"	"Male"	"M"					16	Not Applicable	Not Applicable
+"Total"	"100+ years"	"100+"							26	Not Applicable	Not Applicable
+"Total"									230681	329484123	70.0
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Month"
+"Query Parameters:"
+"Title: CDCWonderDoD21"
+"Five-Year Age Groups: < 1 year; 1-4 years; 5-9 years; 10-14 years; 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39"
+"years; 40-44 years; 45-49 years; 50-54 years; 55-59 years; 60-64 years ; 65-69 years; 70-74 years; 75-79 years; 80-84 years;"
+"85-89 years; 90-94 years; 95-99 years; 100+ years"
+"Gender: Female; Male"
+"UCD - ICD-10 Codes: F10.0 (Mental and behavioural disorders due to use of alcohol, acute intoxication); F10.1 (Mental and"
+"behavioural disorders due to use of alcohol, harmful use); F10.2 (Mental and behavioural disorders due to use of alcohol,"
+"dependence syndrome); F10.3 (Mental and behavioural disorders due to use of alcohol, withdrawal state); F10.4 (Mental and"
+"behavioural disorders due to use of alcohol, withdrawal state with delirium); F10.5 (Mental and behavioural disorders due to use"
+"of alcohol, psychotic disorder); F10.6 (Mental and behavioural disorders due to use of alcohol, amnesic syndrome); F10.7 (Mental"
+"and behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder); F10.8 (Mental and behavioural"
+"disorders due to use of alcohol, other mental and behavioural disorders); F10.9 (Mental and behavioural disorders due to use of"
+"alcohol, unspecified mental and behavioural disorder); F11.0 (Mental and behavioural disorders due to use of opioids, acute"
+"intoxication); F11.1 (Mental and behavioural disorders due to use of opioids, harmful use); F11.2 (Mental and behavioural"
+"disorders due to use of opioids, dependence syndrome); F11.3 (Mental and behavioural disorders due to use of opioids, withdrawal"
+"state); F11.4 (Mental and behavioural disorders due to use of opioids, withdrawal state with delirium); F11.5 (Mental and"
+"behavioural disorders due to use of opioids, psychotic disorder); F11.6 (Mental and behavioural disorders due to use of opioids,"
+"amnesic syndrome); F11.7 (Mental and behavioural disorders due to use of opioids, residual and late-onset psychotic disorder);"
+"F11.8 (Mental and behavioural disorders due to use of opioids, other mental and behavioural disorders); F11.9 (Mental and"
+"behavioural disorders due to use of opioids, unspecified mental and behavioural disorder); F12.0 (Mental and behavioural"
+"disorders due to use of cannabinoids, acute intoxication); F12.1 (Mental and behavioural disorders due to use of cannabinoids,"
+"harmful use); F12.2 (Mental and behavioural disorders due to use of cannabinoids, dependence syndrome); F12.3 (Mental and"
+"behavioural disorders due to use of cannabinoids, withdrawal state); F12.4 (Mental and behavioural disorders due to use of"
+"cannabinoids, withdrawal state with delirium); F12.5 (Mental and behavioural disorders due to use of cannabinoids, psychotic"
+"disorder); F12.6 (Mental and behavioural disorders due to use of cannabinoids, amnesic syndrome); F12.7 (Mental and behavioural"
+"disorders due to use of cannabinoids, residual and late-onset psychotic disorder); F12.8 (Mental and behavioural disorders due"
+"to use of cannabinoids, other mental and behavioural disorders); F12.9 (Mental and behavioural disorders due to use of"
+"cannabinoids, unspecified mental and behavioural disorder); F13.0 (Mental and behavioural disorders due to use of sedatives or"
+"hypnotics, acute intoxication); F13.1 (Mental and behavioural disorders due to use of sedatives or hypnotics, harmful use);"
+"F13.2 (Mental and behavioural disorders due to use of sedatives or hypnotics, dependence syndrome); F13.3 (Mental and"
+"behavioural disorders due to use of sedatives or hypnotics, withdrawal state); F13.4 (Mental and behavioural disorders due to"
+"use of sedatives or hypnotics, withdrawal state with delirium); F13.5 (Mental and behavioural disorders due to use of sedatives"
+"or hypnotics, psychotic disorder); F13.6 (Mental and behavioural disorders due to use of sedatives or hypnotics, amnesic"
+"syndrome); F13.7 (Mental and behavioural disorders due to use of sedatives or hypnotics, residual and late-onset psychotic"
+"disorder); F13.8 (Mental and behavioural disorders due to use of sedatives or hypnotics, other mental and behavioural"
+"disorders); F13.9 (Mental and behavioural disorders due to use of sedatives or hypnotics, unspecified mental and behavioural"
+"disorder); F14.0 (Mental and behavioural disorders due to use of cocaine, acute intoxication); F14.1 (Mental and behavioural"
+"disorders due to use of cocaine, harmful use); F14.2 (Mental and behavioural disorders due to use of cocaine, dependence"
+"syndrome); F14.3 (Mental and behavioural disorders due to use of cocaine, withdrawal state); F14.4 (Mental and behavioural"
+"disorders due to use of cocaine, withdrawal state with delirium); F14.5 (Mental and behavioural disorders due to use of cocaine,"
+"psychotic disorder); F14.6 (Mental and behavioural disorders due to use of cocaine, amnesic syndrome); F14.7 (Mental and"
+"behavioural disorders due to use of cocaine, residual and late-onset psychotic disorder); F14.8 (Mental and behavioural"
+"disorders due to use of cocaine, other mental and behavioural disorders); F14.9 (Mental and behavioural disorders due to use of"
+"cocaine, unspecified mental and behavioural disorder); F15.0 (Mental and behavioural disorders due to use of other stimulants,"
+"including caffeine, acute intoxication); F15.1 (Mental and behavioural disorders due to use of other stimulants, including"
+"caffeine, harmful use); F15.2 (Mental and behavioural disorders due to use of other stimulants, including caffeine, dependence"
+"syndrome); F15.3 (Mental and behavioural disorders due to use of other stimulants, including caffeine, withdrawal state); F15.4"
+"(Mental and behavioural disorders due to use of other stimulants, including caffeine, withdrawal state with delirium); F15.5"
+"(Mental and behavioural disorders due to use of other stimulants, including caffeine, psychotic disorder); F15.6 (Mental and"
+"behavioural disorders due to use of other stimulants, including caffeine, amnesic syndrome); F15.7 (Mental and behavioural"
+"disorders due to use of other stimulants, including caffeine, residual and late-onset psychotic disorder); F15.8 (Mental and"
+"behavioural disorders due to use of other stimulants, including caffeine, other mental and behavioural disorders); F15.9 (Mental"
+"and behavioural disorders due to use of other stimulants, including caffeine, unspecified mental and behavioural disorder);"
+"F16.0 (Mental and behavioural disorders due to use of hallucinogens, acute intoxication); F16.1 (Mental and behavioural"
+"disorders due to use of hallucinogens, harmful use); F16.2 (Mental and behavioural disorders due to use of hallucinogens,"
+"dependence syndrome); F16.3 (Mental and behavioural disorders due to use of hallucinogens, withdrawal state); F16.4 (Mental and"
+"behavioural disorders due to use of hallucinogens, withdrawal state with delirium); F16.5 (Mental and behavioural disorders due"
+"to use of hallucinogens, psychotic disorder); F16.6 (Mental and behavioural disorders due to use of hallucinogens, amnesic"
+"syndrome); F16.7 (Mental and behavioural disorders due to use of hallucinogens, residual and late-onset psychotic disorder);"
+"F16.8 (Mental and behavioural disorders due to use of hallucinogens, other mental and behavioural disorders); F16.9 (Mental and"
+"behavioural disorders due to use of hallucinogens, unspecified mental and behavioural disorder); F18.0 (Mental and behavioural"
+"disorders due to use of volatile solvents, acute intoxication); F18.1 (Mental and behavioural disorders due to use of volatile"
+"solvents, harmful use); F18.2 (Mental and behavioural disorders due to use of volatile solvents, dependence syndrome); F18.3"
+"(Mental and behavioural disorders due to use of volatile solvents, withdrawal state); F18.4 (Mental and behavioural disorders"
+"due to use of volatile solvents, withdrawal state with delirium); F18.5 (Mental and behavioural disorders due to use of volatile"
+"solvents, psychotic disorder); F18.6 (Mental and behavioural disorders due to use of volatile solvents, amnesic syndrome); F18.7"
+"(Mental and behavioural disorders due to use of volatile solvents, residual and late-onset psychotic disorder); F18.8 (Mental"
+"and behavioural disorders due to use of volatile solvents, other mental and behavioural disorders); F18.9 (Mental and"
+"behavioural disorders due to use of volatile solvents, unspecified mental and behavioural disorder); F19.0 (Mental and"
+"behavioural disorders due to multiple drug use and use of other psychoactive substances, acute intoxication); F19.1 (Mental and"
+"behavioural disorders due to multiple drug use and use of other psychoactive substances, harmful use); F19.2 (Mental and"
+"behavioural disorders due to multiple drug use and use of other psychoactive substances, dependence syndrome); F19.3 (Mental and"
+"behavioural disorders due to multiple drug use and use of other psychoactive substances, withdrawal state); F19.4 (Mental and"
+"behavioural disorders due to multiple drug use and use of other psychoactive substances, withdrawal state with delirium); F19.5"
+"(Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, psychotic disorder); F19.6"
+"(Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, amnesic syndrome); F19.7"
+"(Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, residual and late-onset"
+"psychotic disorder); F19.8 (Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances,"
+"other mental and behavioural disorders); F19.9 (Mental and behavioural disorders due to multiple drug use and use of other"
+"psychoactive substances, unspecified mental and behavioural disorder); K70.0 (Alcoholic fatty liver); K70.1 (Alcoholic"
+"hepatitis); K70.2 (Alcoholic fibrosis and sclerosis of liver); K70.3 (Alcoholic cirrhosis of liver); K70.4 (Alcoholic hepatic"
+"failure); K70.9 (Alcoholic liver disease, unspecified); K73.0 (Chronic persistent hepatitis, not elsewhere classified); K73.1"
+"(Chronic lobular hepatitis, not elsewhere classified); K73.2 (Chronic active hepatitis, not elsewhere classified); K73.8 (Other"
+"chronic hepatitis, not elsewhere classified); K73.9 (Chronic hepatitis, unspecified); K74.0 (Hepatic fibrosis); K74.1 (Hepatic"
+"sclerosis); K74.2 (Hepatic fibrosis with hepatic sclerosis); K74.3 (Primary biliary cirrhosis); K74.4 (Secondary biliary"
+"cirrhosis); K74.5 (Biliary cirrhosis, unspecified); K74.6 (Other and unspecified cirrhosis of liver); U03.0 (Terrorism involving"
+"explosions and fragments); U03.9 (Terrorism by other and unspecified means); X40 (Accidental poisoning by and exposure to"
+"nonopioid analgesics, antipyretics and antirheumatics); X41 (Accidental poisoning by and exposure to antiepileptic,"
+"sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified); X42 (Accidental poisoning by and exposure"
+"to narcotics and psychodysleptics [hallucinogens], not elsewhere classified); X43 (Accidental poisoning by and exposure to other"
+"drugs acting on the autonomic nervous system); X44 (Accidental poisoning by and exposure to other and unspecified drugs,"
+"medicaments and biological substances); X45 (Accidental poisoning by and exposure to alcohol); X60-X84 (Intentional self-harm);"
+"X85 (Assault by drugs, medicaments and biological substances); Y10 (Poisoning by and exposure to nonopioid analgesics,"
+"antipyretics and antirheumatics, undetermined intent); Y11 (Poisoning by and exposure to antiepileptic, sedative-hypnotic,"
+"antiparkinsonism and psychotropic drugs, not elsewhere classified, undetermined intent); Y12 (Poisoning by and exposure to"
+"narcotics and psychodysleptics [hallucinogens], not elsewhere classified, undetermined intent); Y13 (Poisoning by and exposure"
+"to other drugs acting on the autonomic nervous system, undetermined intent); Y14 (Poisoning by and exposure to other and"
+"unspecified drugs, medicaments and biological substances, undetermined intent); Y15 (Poisoning by and exposure to alcohol,"
+"undetermined intent); Y87.0 (Sequelae of intentional self-harm); Y87.1 (Sequelae of assault); Y87.2 (Sequelae of events of"
+"undetermined intent)"
+"Year/Month: 2021 (provisional)"
+"Group By: Five-Year Age Groups; Gender; Year; Underlying Cause of death"
+"Show Totals: True"
+"Show Zero Values: True"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Nov 15, 2022 8:30:55 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2020,"
+"and from provisional data for years 2021-2022, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Nov 15, 2022 8:30:55"
+"AM"
+"---"
+Messages:
+"1. Rows with suppressed Deaths are hidden, but the Deaths and Population values in those rows are included in the totals. Use"
+"Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when they include a subset of ages 85-100+ because populations are not"
+"available for those ages. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Ages 85-100."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"4. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Not Stated."
+"5. The population figures for years 2021 and 2020 are single-race estimates of the July 1 resident population, from the Vintage"
+"2020 postcensal series released by the Census Bureau on July 27, 2021. The population figures for year 2019 are single-race"
+"estimates of the July 1 resident population, from the Vintage 2019 postcensal series released by the Census Bureau on June 25,"
+"2020. The population figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018"
+"postcensal series released by the Census Bureau on June 20, 2019."
+"6. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"7. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Deaths with the underlying cause classified with O00-O99 are"
+"subject to further processing before these deaths records are considered final. Provisional deaths have not undergone full"
+"processing and review and therefore should not be considered final for statistical purposes. Caution should be used in"
+"interpreting these data. More information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"8. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"9. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"10. Deaths related to external causes of injury or sudden death: In the provisional mortality data, causes of death classified"
+"as external causes of injury (ICD-10 codes V01-Y89) or sudden deaths (ICD-10 codes R95 and R96) have the cause of death labeled"
+"as 'Data not shown due to 6 month lag to account for delays in death certificate completion for certain causes of death.' For"
+"these deaths occurring 24 weeks prior to the final date in the provisional data, the number of deaths and related statistics are"
+"not available by specific cause of death for ICD-10 codes V01-Y89, R95 or R96."
+"11. Deaths occurring through October 22, 2022 as of November 06, 2022."
