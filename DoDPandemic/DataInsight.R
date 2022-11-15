@@ -13,6 +13,7 @@ library(cowplot)
 library(patchwork)
 library(scales)
 library(ggtext)
+library(gt)
 #Mortality smooth is currently off CRAN, so take mirrored version from Tim Riffe's GitHub
 #remotes::install_github("timriffe/MortalitySmooth")
 library(MortalitySmooth)
@@ -921,72 +922,59 @@ UKdata <- ewdata.wide %>%
 
 #All downloaded from the CDC wonder database using the same ICD-10 definitions as above
 temp <- tempfile()
-US.alcurl <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCAlcoholDeaths.txt"
-temp <- curl_download(url=US.alcurl, destfile=temp, quiet=FALSE, mode="wb")
+US.DoD0021 <- "https://raw.githubusercontent.com/VictimOfMaths/Publications/master/DoDPandemic/CDCWonderDoD2020.txt"
+temp <- curl_download(url=US.DoD0021, destfile=temp, quiet=FALSE, mode="wb")
 
-US.alc <- read.csv(temp, sep="\t") %>% 
-  mutate(Cause="Alcohol")
+US.DoD0021 <- read.csv(temp, sep="\t") 
 
-US.drgurl <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCDrugDeaths.txt"
-temp <- curl_download(url=US.drgurl, destfile=temp, quiet=FALSE, mode="wb")
+temp <- tempfile()
+US.AllCause0021 <- "https://raw.githubusercontent.com/VictimOfMaths/Publications/master/DoDPandemic/CDCWonderAllCause2020.txt"
+temp <- curl_download(url=US.AllCause0021, destfile=temp, quiet=FALSE, mode="wb")
 
-US.drg <- read.csv(temp, sep="\t") %>% 
-  mutate(Cause="Drugs")
-
-US.scdurl <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCSuicideDeaths.txt"
-temp <- curl_download(url=US.scdurl, destfile=temp, quiet=FALSE, mode="wb")
-
-US.scd <- read.csv(temp, sep="\t") %>% 
-  mutate(Cause="Suicide")
-
-US.toturl <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCAllCauseDeaths.txt"
-temp <- curl_download(url=US.toturl, destfile=temp, quiet=FALSE, mode="wb")
-
-US.tot <- read.csv(temp, sep="\t") %>% 
-  mutate(Cause="Total")
+US.AllCause0021 <- read.csv(temp, sep="\t") 
 
 #More recent provisional data
-#temp <- tempfile()
-#US.alcurl.p <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCAlcoholDeaths.txt"
-#temp <- curl_download(url=US.alcurl.p, destfile=temp, quiet=FALSE, mode="wb")
+temp <- tempfile()
+US.DoD21 <- "https://raw.githubusercontent.com/VictimOfMaths/Publications/master/DoDPandemic/CDCWonderDoD21.txt"
+temp <- curl_download(url=US.DoD21, destfile=temp, quiet=FALSE, mode="wb")
 
-US.alc.p <- read.csv("CDC Data/CDCAlcohol2021_provisional.txt", sep="\t") %>% 
-  mutate(Cause="Alcohol")
+US.DoD21 <- read.csv(temp, sep="\t") 
 
-#US.drgurl.p <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCDrugDeaths.txt"
-#temp <- curl_download(url=US.drgurl.p, destfile=temp, quiet=FALSE, mode="wb")
+temp <- tempfile()
+US.AllCause21 <- "https://raw.githubusercontent.com/VictimOfMaths/Publications/master/DoDPandemic/CDCWonderAllCause21.txt"
+temp <- curl_download(url=US.AllCause21, destfile=temp, quiet=FALSE, mode="wb")
 
-US.drg.p <- read.csv("CDC Data/CDCDrugs2021_provisional.txt", sep="\t") %>% 
-  mutate(Cause="Drugs")
+US.AllCause21 <- read.csv(temp, sep="\t") 
 
-#US.scdurl.p <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCSuicideDeaths.txt"
-#temp <- curl_download(url=US.scdurl.p, destfile=temp, quiet=FALSE, mode="wb")
-
-US.scd.p <- read.csv("CDC Data/CDCSuicide2021_provisional.txt", sep="\t") %>% 
-  mutate(Cause="Suicide")
-
-#US.toturl.p <- "https://raw.githubusercontent.com/VictimOfMaths/DeathsOfDespair/master/Paper/CDCAllCauseDeaths.txt"
-#temp <- curl_download(url=US.toturl.p, destfile=temp, quiet=FALSE, mode="wb")
-
-US.tot.p <- read.csv("CDC Data/CDCAllCause2021_provisional.txt", sep="\t") %>% 
-  mutate(Cause="Total")
-
-USdata <- bind_rows(US.alc, US.drg, US.scd, US.tot) %>% 
+USdata <- bind_rows(US.DoD0021, US.AllCause0021) %>% 
   filter(Notes!="Total" & !is.na(Deaths)) %>% 
-  mutate(Age=as.integer(as.character(Single.Year.Ages.Code))) %>% 
-  select(Year, Cause, Gender, Age, Deaths) %>% 
-  bind_rows(bind_rows(US.drg.p, US.tot.p) %>%
-              mutate(Single.Year.Ages.Code=as.integer(Single.Year.Ages.Code)) %>% 
-              bind_rows(US.alc.p, US.scd.p) %>% 
+  select(Year.Code, Five.Year.Age.Groups.Code, Gender, Cause.of.death.Code, Deaths) %>% 
+  set_names("Year", "Age", "Sex", "ICD10", "Dx") %>% 
+  bind_rows(bind_rows(US.DoD21, US.AllCause21) %>% 
               filter(Notes!="Total" & !is.na(Deaths)) %>% 
-              rename(Age=Single.Year.Ages.Code) %>% 
-              select(Year.Code, Cause, Gender, Age, Deaths) %>% 
-              rename(Year=Year.Code)) %>% 
-  rename(Dx=Deaths, Sex=Gender) %>%
+              select(Year.Code, Five.Year.Age.Groups.Code, Gender, Underlying.Cause.of.death.Code, Deaths) %>% 
+              set_names("Year", "Age", "Sex", "ICD10", "Dx")) %>% 
+  mutate(Cause=case_when(
+    is.na(ICD10) ~ "Total",
+    substr(ICD10, 1, 3) %in% c("F10", "K70", "K73", "K74", "X45", "Y15") ~ "Alcohol",
+    substr(ICD10, 1, 3) %in% c("F11", "F12", "F13", "F14", "F15", "F16", "F18", "F19", "X40", "X41", "X42",
+                 "X43", "X44", "X85", "Y10", "Y11", "Y12", "Y13", "Y14") ~ "Drugs",
+    substr(ICD10, 1, 3) %in% c("U03", "Y87") | substr(ICD10, 1, 2) %in% c("X6", "X7", "X8") ~ "Suicide")) %>% 
+  group_by(Year, Age, Sex, Cause) %>% 
+  summarise(Dx=sum(Dx), .groups="drop") %>% 
   #Calculate other cause deaths
   spread(Cause, Dx) %>% 
   mutate(Other=Total-Alcohol-Drugs-Suicide) %>% 
-  gather(Cause, Dx, c(4:8))
+  gather(Cause, Dx, c(4:8)) %>% 
+  mutate(Dx=replace_na(Dx, 0), 
+         agestart=case_when(Age=="1" ~ 0,
+                            Age=="1-4" ~ 1, Age=="5-9" ~ 5, Age=="10-14" ~ 10, Age=="15-19" ~ 15,
+                            Age=="20-24" ~ 20, Age=="25-29" ~ 25, Age=="30-34" ~ 30, Age=="35-39" ~ 35,
+                            Age=="40-44" ~ 40, Age=="45-49" ~ 45, Age=="50-54" ~ 50, Age=="55-59" ~ 55,
+                            Age=="60-64" ~ 60, Age=="65-69" ~ 65, Age=="70-74" ~ 70, Age=="75-79" ~ 75,
+                            Age=="80-84" ~ 80, TRUE ~ 85)) %>% 
+  group_by(Year, agestart, Sex, Cause) %>% 
+  summarise(Dx=sum(Dx), .groups="drop")
 
 #Bring in exposures/populations from HMD as CDC data is missing populations for 85+
 USpop <- readHMDweb(CNTRY="USA", "Population",  key_list("mortality.org")[1,2], 
@@ -997,29 +985,26 @@ USpop <- readHMDweb(CNTRY="USA", "Population",  key_list("mortality.org")[1,2],
   mutate(Age=if_else(Age=="110+", 110, as.double(Age))) %>% 
   group_by(Year, Sex, Age) %>% 
   summarise(Ex=sum(Ex)) %>% 
-  ungroup()
-
-USdata <- merge(USdata, USpop) %>% 
-  mutate(mx=Dx*100000/Ex)
-
-#Generate US 5-year age banded raw data to match UK data
-USbanded <- USdata %>% 
+  ungroup() %>% 
   filter(Age>=10) %>% 
   mutate(agestart=case_when(
     Age<15 ~ 10, Age<20 ~ 15, Age<25 ~ 20, Age<30 ~ 25, Age<35 ~ 30, Age<40 ~ 35, Age<45 ~ 40, 
     Age<50 ~ 45, Age<55 ~ 50, Age<60 ~ 55, Age<65 ~ 60, Age<70 ~ 65, Age<75 ~ 70, Age<80 ~ 75,
     Age<85 ~ 80, TRUE ~ 85)) %>% 
-  group_by(Cause, Year, Sex, agestart) %>% 
-  summarise(Dx=sum(Dx, na.rm=TRUE), Ex=sum(Ex, na.rm=TRUE), .groups="drop") %>% 
-  mutate(mx=Dx*100000/Ex)
+  group_by(Year, Sex, agestart) %>% 
+  summarise(Ex=sum(Ex, na.rm=TRUE), .groups="drop") 
+
+USdata <- merge(USdata, USpop) %>% 
+  mutate(mx=Dx*100000/Ex, Country="USA")
 
 rm(list=setdiff(ls(), c("ewdata.wide", "ewpop", "ewpop.grouped", "scotdata.wide", "scotpop", 
-                        "scotpop.grouped", "nidata.wide", "nipop", "nipop.grouped", "UKsmoothed",
-                        "USsmoothed", "UKdata", "USbanded", "password", "username", "font", 
-                        "theme_custom", "ewalcvalidate")))
+                        "scotpop.grouped", "nidata.wide", "nipop", "nipop.grouped", "UKdata", 
+                        "USdata", "USpop", "font", "theme_custom", "ewalcvalidate")))
 
-Raw <- USbanded %>% 
-  mutate(Country="USA") %>% 
+############################
+#Analysis#
+##########
+Raw <- USdata %>% 
   bind_rows(UKdata %>% 
               mutate(Year=as.numeric(Year),
                      Sex=if_else(Sex==1, "Male", "Female")))
@@ -1036,6 +1021,22 @@ ASdata <- Raw %>%
   summarise(Dx=sum(Dx), Ex=sum(Ex), 
             mx_std=weighted.mean(mx, stdpop), .groups="drop") %>% 
   group_by(Country, Cause, Sex) 
+
+#Tabulate 2019-2021 changes
+tabledata <- ASdata %>%
+  select(Year, Country, Cause, Sex, mx_std) %>% 
+  filter(Year %in% c(2019, 2021)) %>% 
+  spread(Year, mx_std) %>% 
+  mutate(abschange=`2021`-`2019`, relchange=abschange/`2019`)
+
+tabledata %>%
+  filter(Cause %in% c("Alcohol", "Drugs", "Suicide")) %>% 
+  arrange(Country, Cause, Sex) %>% 
+  group_by(Country, Cause) %>% 
+  gt(rowname_col="Sex") %>% 
+  fmt_percent(columns=relchange, decimals=1) %>% 
+  fmt_number(columns=c(`2019`, `2021`, abschange), decimals=1) %>% 
+  gtsave("Outputs/DoDPandemicTable1.png")
 
 #Plot
 agg_png("Outputs/DoDPandemicPaperFig1.png", units="in", width=10, height=6, res=600)
@@ -1259,5 +1260,4 @@ agg_png("Outputs/DoDPandemicPaperFig2.png", units="in", width=8, height=16, res=
   plot_layout(guides = 'collect', heights=unit(c(1.3,1.3,3,3,3), units="in"))
 
 dev.off()
-
 
