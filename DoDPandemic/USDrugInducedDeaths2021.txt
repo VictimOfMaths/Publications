@@ -1,0 +1,89 @@
+"Notes"	"Gender"	"Gender Code"	"Five-Year Age Groups"	"Five-Year Age Groups Code"	Deaths	Population	Crude Rate
+	"Female"	"F"	"< 1 year"	"1"	114	9208245	1.2
+	"Female"	"F"	"1-4 years"	"1-4"	156	38357709	0.4
+	"Female"	"F"	"5-9 years"	"5-9"	30	49425659	0.1
+	"Female"	"F"	"10-14 years"	"10-14"	205	50879059	0.4
+	"Female"	"F"	"15-19 years"	"15-19"	1925	51430272	3.7
+	"Female"	"F"	"20-24 years"	"20-24"	6544	52925947	12.4
+	"Female"	"F"	"25-29 years"	"25-29"	11564	57115715	20.2
+	"Female"	"F"	"30-34 years"	"30-34"	15111	55828292	27.1
+	"Female"	"F"	"35-39 years"	"35-39"	15923	54298125	29.3
+	"Female"	"F"	"40-44 years"	"40-44"	14263	50530199	28.2
+	"Female"	"F"	"45-49 years"	"45-49"	13620	51088642	26.7
+	"Female"	"F"	"50-54 years"	"50-54"	14464	52029114	27.8
+	"Female"	"F"	"55-59 years"	"55-59"	14401	55780073	25.8
+	"Female"	"F"	"60-64 years "	"60-64"	9961	53785747	18.5
+	"Female"	"F"	"65-69 years"	"65-69"	4894	46757256	10.5
+	"Female"	"F"	"70-74 years"	"70-74"	2186	38370403	5.7
+	"Female"	"F"	"75-79 years"	"75-79"	1155	26996005	4.3
+	"Female"	"F"	"80-84 years"	"80-84"	720	18319794	3.9
+	"Female"	"F"	"85-89 years"	"85-89"	485	Not Applicable	Not Applicable
+	"Female"	"F"	"90-94 years"	"90-94"	291	Not Applicable	Not Applicable
+	"Female"	"F"	"95-99 years"	"95-99"	77	Not Applicable	Not Applicable
+	"Male"	"M"	"< 1 year"	"1"	145	9628045	1.5
+	"Male"	"M"	"1-4 years"	"1-4"	202	40096835	0.5
+	"Male"	"M"	"5-9 years"	"5-9"	40	51679011	0.1
+	"Male"	"M"	"10-14 years"	"10-14"	134	53062005	0.3
+	"Male"	"M"	"15-19 years"	"15-19"	3747	53604306	7.0
+	"Male"	"M"	"20-24 years"	"20-24"	15485	55364837	28.0
+	"Male"	"M"	"25-29 years"	"25-29"	29402	59648786	49.3
+	"Male"	"M"	"30-34 years"	"30-34"	36529	57254240	63.8
+	"Male"	"M"	"35-39 years"	"35-39"	37077	54487895	68.0
+	"Male"	"M"	"40-44 years"	"40-44"	32098	50029389	64.2
+	"Male"	"M"	"45-49 years"	"45-49"	28360	49968062	56.8
+	"Male"	"M"	"50-54 years"	"50-54"	29105	50519182	57.6
+	"Male"	"M"	"55-59 years"	"55-59"	28918	52847600	54.7
+	"Male"	"M"	"60-64 years "	"60-64"	21298	49518784	43.0
+	"Male"	"M"	"65-69 years"	"65-69"	10952	41405639	26.5
+	"Male"	"M"	"70-74 years"	"70-74"	3903	33090645	11.8
+	"Male"	"M"	"75-79 years"	"75-79"	1434	21884225	6.6
+	"Male"	"M"	"80-84 years"	"80-84"	674	13518863	5.0
+	"Male"	"M"	"85-89 years"	"85-89"	367	Not Applicable	Not Applicable
+	"Male"	"M"	"90-94 years"	"90-94"	175	Not Applicable	Not Applicable
+	"Male"	"M"	"95-99 years"	"95-99"	52	Not Applicable	Not Applicable
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Month"
+"Query Parameters:"
+"Five-Year Age Groups: < 1 year; 1-4 years; 5-9 years; 10-14 years; 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39"
+"years; 40-44 years; 45-49 years; 50-54 years; 55-59 years; 60-64 years ; 65-69 years; 70-74 years; 75-79 years; 80-84 years;"
+"85-89 years; 90-94 years; 95-99 years; 100+ years"
+"UCD - Drug/Alcohol Induced Causes: Drug-induced causes"
+"Group By: Gender; Five-Year Age Groups"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Feb 15, 2023 9:53:37 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2020,"
+"and from provisional data for years 2021-2022, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Feb 15, 2023 9:53:37"
+"AM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when they include a subset of ages 85-100+ because populations are not"
+"available for those ages. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Ages 85-100."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Not Stated."
+"4. The population figures for years 2021 and 2020 are single-race estimates of the July 1 resident population, from the Vintage"
+"2020 postcensal series released by the Census Bureau on July 27, 2021. The population figures for year 2019 are single-race"
+"estimates of the July 1 resident population, from the Vintage 2019 postcensal series released by the Census Bureau on June 25,"
+"2020. The population figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018"
+"postcensal series released by the Census Bureau on June 20, 2019."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"6. Deaths occurring through December 17, 2022 as of January 02, 2023."
