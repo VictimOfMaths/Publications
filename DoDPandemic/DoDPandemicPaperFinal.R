@@ -1252,6 +1252,16 @@ NI_m/NI_f+
 
 dev.off()
 
+#One Megaplot
+agg_tiff("Outputs/DoDPandemicPaperFig2.tiff", units="in", width=8, height=16, res=600)
+((EW_m+ggtitle("England & Wales"))/EW_f)/
+  ((NI_m+ggtitle("Northern Ireland"))/NI_f)/
+  ((Scot_m+ggtitle("Scotland"))/Scot_f)/
+  ((USA_m+ggtitle("USA"))/USA_f)+
+  plot_layout(guides = 'collect', heights=unit(c(1.3,1.3,3,3,3), units="in"))
+
+dev.off()
+
 #Supplementary check that alcohol-specific trends are comparable using 
 #our definition and the official ONS one 
 temp <- tempfile()
