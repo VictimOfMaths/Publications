@@ -78,7 +78,7 @@ rawdata <- bind_rows(rawpersons, rawmale, rawfemale) %>%
 #Collapse to IMD quintiles, 5-year age bands and separate out causes
 working1 <- rawdata %>% 
   mutate(Cause=case_when(
-    substr(`ICD-10 code`,1,3)=="K70" ~ "Alcoholic liver disease",
+    substr(`ICD-10 code`,1,3)=="K70" ~ "Alcohol-related liver disease",
     `ICD-10 code`=="F102" ~ "Alcohol dependence syndrome",
     substr(`ICD-10 code`,1,3) %in% c("F10", "X45", "X65", "Y15") | `ICD-10 code`=="R780" ~ "Acute causes",
     `ICD-10 code` %in% c("E244", "G312", "G621", "G721", "I426", "K292", "K852", "K860", "Q860") ~ 
@@ -936,7 +936,7 @@ Maindata5 <- working1 %>%
 #ii) Wider defn of alcohol-specific deaths incl. K73 & 74
 Maindata5 <- Maindata5 %>% 
   bind_rows(Maindata5 %>% 
-              filter(Cause %in% c("Acute causes", "Alcoholic liver disease",
+              filter(Cause %in% c("Acute causes", "Alcohol-related liver disease",
                                   "Alcohol dependence syndrome",
                                   "Other alcohol-specific causes")) %>% 
               group_by(Age5, Year, Sex, IMDq, Pop) %>% 
@@ -1060,8 +1060,10 @@ Fig2a <- ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Other",
   scale_x_continuous(name="")+
   scale_y_continuous(name="Age-standardised deaths per 100,000", 
                      limits=c(0,NA))+
-  scale_colour_paletteer_d("nbapalettes::thunder", name="")+
-  scale_fill_paletteer_d("nbapalettes::thunder", name="")+
+  scale_fill_manual(values=c("#0072CE", "#F9423A", "#041E42", "#FFB81C"))+
+  scale_colour_manual(values=c("#0072CE", "#F9423A", "#041E42", "#FFB81C"))+
+  #scale_colour_paletteer_d("nbapalettes::thunder", name="")+
+  #scale_fill_paletteer_d("nbapalettes::thunder", name="")+
   theme_custom()
 
 #Faceted version
@@ -1155,10 +1157,12 @@ Fig2d <- ASData %>% filter(Cause=="All alcohol-specific causes" &
 
 #Combine into big faceted plot
 agg_png("Outputs/OldhamASDFigure2.png", units="in", width=12, height=8, res=800)
-(Fig2a+theme(legend.position="top")+guides(fill=guide_legend(nrow=2), 
-                                           colour=guide_legend(nrow=2))+
+(Fig2a+theme(legend.position="top")+guides(fill=guide_legend(nrow=2, byrow=TRUE), 
+                                           colour=guide_legend(nrow=2, byrow=TRUE))+
     labs(title="A - Cause")|
-    Fig2b+theme(legend.position="top")+labs(title="B - Age"))/
+    Fig2b+theme(legend.position="top")+guides(fill=guide_legend(nrow=2, byrow=TRUE), 
+                                              colour=guide_legend(nrow=2, byrow=TRUE))+
+    labs(title="B - Age"))/
   (Fig2c+theme(legend.position="top")+labs(title="C - Sex")|
      Fig2d+theme(legend.position="top")+labs(title="D - IMD quintile"))
 
@@ -1175,7 +1179,7 @@ ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Other",
   scale_x_continuous(name="")+
   scale_y_continuous(name="Proportion of age-standardised deaths",
                      labels=label_percent(accuracy=1))+
-  scale_fill_paletteer_d("nbapalettes::thunder", name="")+
+  scale_fill_manual(values=c("#0072CE", "#F9423A", "#041E42", "#FFB81C"), name="")+
   theme_custom()
 
 dev.off()
@@ -1269,7 +1273,7 @@ ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" &
                                        "Other liver disease")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
-                                      "Alcoholic liver disease", 
+                                      "Alcohol-related liver disease", 
                                       "Acute causes", 
                                       "All alcohol-specific causes"))) %>% 
   ggplot(aes(x=RateDiff, y=Cause, fill=Cause))+
@@ -1288,7 +1292,7 @@ Fig3a <- ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" &
                                        "Other liver disease")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
-                                      "Alcoholic liver disease", 
+                                      "Alcohol-related liver disease", 
                                       "Acute causes", 
                                       "All alcohol-specific causes"))) %>% 
   ggplot(aes(x=RateRatio, y=Cause, fill=Cause))+
@@ -1414,7 +1418,7 @@ Table1Data <- ModelDataAS %>%
   mutate(Cat="Overall", SubCat="") %>% 
   bind_rows(ModelDataAS %>% 
               filter(Cause %in% c("Other alcohol-specific causes", "Alcohol dependence syndrome",
-                                  "Alcoholic liver disease", "Acute causes") & Sex=="Total" & IMDq=="Overall") %>% 
+                                  "Alcohol-related liver disease", "Acute causes") & Sex=="Total" & IMDq=="Overall") %>% 
               mutate(Cat="Cause", SubCat=Cause) %>% 
               select(Cat, SubCat, Pandemic, `Pre-pandemic`, RateDiff, RateRatio)) %>% 
   bind_rows(ModelData10 %>% 
@@ -1605,8 +1609,8 @@ Table2 <- merge(PreResults, PostResults) %>%
   arrange(Cat) %>% 
   group_by(Cat) %>% 
   gt(rowname_col="SubCat") %>% 
-  cols_move(columns=c(`Rate Difference Pre`), after=`Rate Ratio Pre`) %>% 
-  cols_move(columns=c(`Rate Ratio Post`), after=`Rate Ratio Pre`) %>% 
+  cols_move(columns=c(`Rate Difference Post`), after=`Rate Difference Pre`) %>% 
+  #cols_move(columns=c(`Rate Ratio Post`), after=`Rate Ratio Pre`) %>% 
   tab_spanner(label="Rate Ratio", columns=c(`Rate Ratio Pre`, `Rate Ratio Post`)) %>% 
   tab_spanner(label="Absolute Rate Difference", columns=c(`Rate Difference Pre`, 
                                                           `Rate Difference Post`)) %>% 
@@ -1664,7 +1668,7 @@ Fig3aSA1 <- ModelDataASSA1 %>% filter(Sex=="Total" & IMDq=="Overall" &
                                                 "Other liver disease")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
-                                      "Alcoholic liver disease", 
+                                      "Alcohol-related liver disease", 
                                       "Acute causes", 
                                       "All alcohol-specific causes"))) %>% 
   ggplot(aes(x=RateRatio, y=Cause, fill=Cause))+
@@ -1746,7 +1750,7 @@ Table1DataSA1 <- ModelDataASSA1 %>%
   mutate(Cat="Overall", SubCat="") %>% 
   bind_rows(ModelDataAS %>% 
               filter(Cause %in% c("Other alcohol-specific causes", "Alcohol dependence syndrome",
-                                  "Alcoholic liver disease", "Acute causes") & Sex=="Total" & IMDq=="Overall") %>% 
+                                  "Alcohol-related liver disease", "Acute causes") & Sex=="Total" & IMDq=="Overall") %>% 
               mutate(Cat="Cause", SubCat=Cause) %>% 
               select(Cat, SubCat, Pandemic, `Pre-pandemic`, RateDiff, RateRatio)) %>% 
   bind_rows(ModelData10 %>% 
@@ -1864,11 +1868,11 @@ Table2SA1 <- merge(PreResults, PostResultsSA1) %>%
   arrange(Cat) %>% 
   group_by(Cat) %>% 
   gt(rowname_col="SubCat") %>% 
-  cols_move(columns=c(`Rate Difference Pre`), after=`Rate Ratio Pre`) %>% 
-  cols_move(columns=c(`Rate Ratio Post`), after=`Rate Ratio Pre`) %>% 
-  tab_spanner(label="Rate Ratio", columns=c(`Rate Ratio Pre`, `Rate Ratio Post`)) %>% 
+  cols_move(columns=c(`Rate Difference Post`), after=`Rate Difference Pre`) %>% 
+  #cols_move(columns=c(`Rate Ratio Post`), after=`Rate Ratio Pre`) %>% 
   tab_spanner(label="Absolute Rate Difference", columns=c(`Rate Difference Pre`, 
                                                           `Rate Difference Post`)) %>% 
+  tab_spanner(label="Rate Ratio", columns=c(`Rate Ratio Pre`, `Rate Ratio Post`)) %>% 
   cols_label(`Rate Ratio Pre`="2017-19",
              `Rate Ratio Post`="2021-22",
              `Rate Difference Pre`="2017-19",
@@ -1910,8 +1914,8 @@ Fig2aSA2 <- ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Othe
   scale_x_continuous(name="")+
   scale_y_continuous(name="Age-standardised deaths per 100,000", 
                      limits=c(0,NA))+
-  scale_colour_manual(values=c("#0072CE", "#041E42", "#F9423A", "#FFB81C", "#addd8e"), name="")+
-  scale_fill_manual(values=c("#0072CE", "#041E42", "#F9423A", "#FFB81C", "#addd8e"), name="")+
+  scale_fill_manual(values=c("#0072CE", "#F9423A", "#041E42", "#FFB81C", "#addd8e"))+
+  scale_colour_manual(values=c("#0072CE", "#F9423A", "#041E42", "#FFB81C", "#addd8e"))+
   theme_custom()
 
 #RQ1b by age
@@ -1969,10 +1973,11 @@ Fig2dSA2 <- ASData %>% filter(Cause=="All alcohol-specific causes - wider" &
 
 #Combine into big faceted plot
 agg_png("Outputs/OldhamASDFigure2SA2.png", units="in", width=12, height=8, res=800)
-(Fig2aSA2+theme(legend.position="top")+guides(fill=guide_legend(nrow=2), 
-                                           colour=guide_legend(nrow=2))+
+(Fig2aSA2+theme(legend.position="top")+guides(fill=guide_legend(nrow=2,byrow=TRUE), 
+                                           colour=guide_legend(nrow=2,byrow=TRUE))+
     labs(title="A - Cause")|
-    Fig2bSA2+theme(legend.position="top")+labs(title="B - Age"))/
+    Fig2bSA2+theme(legend.position="top")+guides(fill=guide_legend(nrow=2,byrow=TRUE), 
+                                                 colour=guide_legend(nrow=2,byrow=TRUE))+labs(title="B - Age"))/
   (Fig2cSA2+theme(legend.position="top")+labs(title="C - Sex")|
      Fig2dSA2+theme(legend.position="top")+labs(title="D - IMD quintile"))
 
@@ -1989,7 +1994,7 @@ ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Other",
   scale_x_continuous(name="")+
   scale_y_continuous(name="Proportion of age-standardised deaths",
                      labels=label_percent(accuracy=1))+
-  scale_fill_manual(values=c("#0072CE", "#041E42", "#F9423A", "#FFB81C", "#addd8e"), name="")+
+  scale_fill_manual(values=c("#0072CE",  "#F9423A", "#041E42","#FFB81C", "#addd8e"), name="")+
   theme_custom()
 
 dev.off()
@@ -2045,7 +2050,7 @@ ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" &
                          !Cause %in% c("Other", "All alcohol-specific causes")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
-                                      "Alcoholic liver disease", 
+                                      "Alcohol-related liver disease", 
                                       "Acute causes", 
                                       "Other liver disease",
                                       "All alcohol-specific causes - wider"))) %>% 
@@ -2064,7 +2069,7 @@ Fig3aSA2 <- ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" &
                                   !Cause %in% c("Other", "All alcohol-specific causes")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
-                                      "Alcoholic liver disease", 
+                                      "Alcohol-related liver disease", 
                                       "Acute causes", 
                                       "Other liver disease",
                                       "All alcohol-specific causes - wider"))) %>% 
@@ -2191,7 +2196,7 @@ Table1DataSA2 <- ModelDataAS %>%
   mutate(Cat="Overall", SubCat="") %>% 
   bind_rows(ModelDataAS %>% 
               filter(Cause %in% c("Other liver disease", "Other alcohol-specific causes", "Alcohol dependence syndrome",
-                                  "Alcoholic liver disease", "Acute causes") & Sex=="Total" & IMDq=="Overall") %>% 
+                                  "Alcohol-related liver disease", "Acute causes") & Sex=="Total" & IMDq=="Overall") %>% 
               mutate(Cat="Cause", SubCat=Cause) %>% 
               select(Cat, SubCat, Pandemic, `Pre-pandemic`, RateDiff, RateRatio)) %>% 
   bind_rows(ModelData10 %>% 
@@ -2382,11 +2387,11 @@ Table2SA2 <- merge(PreResultsSA2, PostResultsSA2) %>%
   arrange(Cat) %>% 
   group_by(Cat) %>% 
   gt(rowname_col="SubCat") %>% 
-  cols_move(columns=c(`Rate Difference Pre`), after=`Rate Ratio Pre`) %>% 
-  cols_move(columns=c(`Rate Ratio Post`), after=`Rate Ratio Pre`) %>% 
-  tab_spanner(label="Rate Ratio", columns=c(`Rate Ratio Pre`, `Rate Ratio Post`)) %>% 
+  cols_move(columns=c(`Rate Difference Post`), after=`Rate Difference Pre`) %>% 
+  #cols_move(columns=c(`Rate Ratio Post`), after=`Rate Ratio Pre`) %>% 
   tab_spanner(label="Absolute Rate Difference", columns=c(`Rate Difference Pre`, 
                                                           `Rate Difference Post`)) %>% 
+  tab_spanner(label="Rate Ratio", columns=c(`Rate Ratio Pre`, `Rate Ratio Post`)) %>% 
   cols_label(`Rate Ratio Pre`="2017-19",
              `Rate Ratio Post`="2020-22",
              `Rate Difference Pre`="2017-19",
@@ -2394,3 +2399,17 @@ Table2SA2 <- merge(PreResultsSA2, PostResultsSA2) %>%
 
 #Export table2
 gtsave(Table2SA2, "Outputs/OldhamASDTable2SA2.docx") 
+
+#Figures for text
+RateChanges <- ASData %>% filter(Sex=="Total" & IMDq=="Overall" & Cause=="All alcohol-specific causes") %>% 
+  mutate(PercChange=(mx-lag(mx,1))/lag(mx,1))
+
+RateChanges %>% filter(Year %in% c(2020, 2022)) %>% 
+  mutate(PercChange=(mx-lag(mx,1))/lag(mx,1))
+
+RateChanges %>% filter(Year %in% c(2019, 2022)) %>% 
+  mutate(PercChange=(mx-lag(mx,1))/lag(mx,1))
+
+RateChanges %>% filter(Year %in% c(2001, 2008)) %>% 
+  mutate(PercChange=(mx-lag(mx,1))/lag(mx,1))
+
