@@ -1026,8 +1026,16 @@ AgeBandData <- Maindata5 %>%
          UpperCI=mx+1.96*mx/sqrt(Deaths)) %>% 
   ungroup()
 
-###########################################################################
-#Actual analysis
+#Save main datasets so we don't have to rerun all of this ^ every time (because it takes ages)
+data.table::fwrite(AgeBandData, "Data/ASDPaperAgeBandData.csv")
+data.table::fwrite(ASData, "Data/ASDPaperASData.csv")
+data.table::fwrite(Maindata5, "Data/ASDPaperMaindata5.csv")
+
+AgeBandData <- data.table::fread("Data/ASDPaperAgeBandData.csv")
+ASData <- data.table::fread("Data/ASDPaperASData.csv")
+Maindata5 <- data.table::fread("Data/ASDPaperMaindata5.csv")
+
+############################################################################Actual analysis
 
 #RQ1 overall
 agg_png("Outputs/OldhamASDFigure1.png", units="in", width=8, height=5, res=800)
