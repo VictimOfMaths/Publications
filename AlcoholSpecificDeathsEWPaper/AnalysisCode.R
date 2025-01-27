@@ -40,9 +40,9 @@ theme_custom <- function() {
 
 #Define European Standard Population 2013
 ESP <- data.frame(Age=c("Under 1", "1-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49",
-                 "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80-84", "85-89", "90+"),
-           ESP=c(1000, 4000, 5500, 5500, 5500, 6000, 6000, 6500, 7000, 7000, 7000, 7000, 6500, 6000, 5500, 5000, 
-                 4000 ,2500, 1500, 1000))
+                        "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80-84", "85-89", "90+"),
+                  ESP=c(1000, 4000, 5500, 5500, 5500, 6000, 6000, 6500, 7000, 7000, 7000, 7000, 6500, 6000, 5500, 5000, 
+                        4000 ,2500, 1500, 1000))
 
 #Read in data from ONS website
 #https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/adhocs/1355deathsbysexsingleyearofageunderlyingcauseicd10codeanddeprivationdecileengland2001to2022
@@ -138,13 +138,13 @@ url <- "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/population
 temp <- curl_download(url=url, destfile=temp, quiet=FALSE, mode="wb")
 
 Pop2020 <- bind_rows(read_excel(temp, sheet="Mid-2020 Males", range="A5:CT34758") %>% 
-  gather(Age, Pop, c(8:98)) %>% 
-  mutate(Sex="Male"),
-  read_excel(temp, sheet="Mid-2020 Females", range="A5:CT34758") %>% 
-    gather(Age, Pop, c(8:98)) %>% 
-    mutate(Sex="Female")) %>% 
+                       gather(Age, Pop, c(8:98)) %>% 
+                       mutate(Sex="Male"),
+                     read_excel(temp, sheet="Mid-2020 Females", range="A5:CT34758") %>% 
+                       gather(Age, Pop, c(8:98)) %>% 
+                       mutate(Sex="Female")) %>% 
   mutate(Age=gsub("\\+", "", Age),
-    Age=as.numeric(Age),
+         Age=as.numeric(Age),
          Age5=case_when(Age<1 ~ "Under 1", Age<5 ~ "1-4", Age<10 ~ "5-9", Age<15 ~ "10-14", Age<20 ~ "15-19", Age<25 ~ "20-24",
                         Age<30 ~ "25-29", Age<35 ~ "30-34", Age<40 ~ "35-39", Age<45 ~ "40-44", Age<50 ~ "45-49", Age<55 ~ "50-54",
                         Age<60 ~ "55-59", Age<65 ~ "60-64", Age<70 ~ "65-69", Age<75 ~ "70-74", Age<80 ~ "75-79", Age<85 ~ "80-84",
@@ -353,7 +353,7 @@ temp <- curl_download(url=url, destfile=temp, quiet=FALSE, mode="wb")
 unzip(zipfile=temp, exdir=temp2)
 
 Pop2011m <- read_excel(file.path(temp2, "SAPE8DT2b-LSOA-syoa-unformatted-males-mid2007-to-mid2010.xls"), 
-                                sheet="Mid-2011", range="A1:CQ34754") %>% 
+                       sheet="Mid-2011", range="A1:CQ34754") %>% 
   gather(Age, Pop, c(5:95)) %>% 
   mutate(Sex="Male")
 
@@ -376,7 +376,7 @@ Pop2007m <- read_excel(file.path(temp2, "SAPE8DT2b-LSOA-syoa-unformatted-males-m
                        sheet="Mid-2007", range="A1:CQ34754") %>% 
   gather(Age, Pop, c(5:95)) %>% 
   mutate(Sex="Male")
-  
+
 Pop2006m <- read_excel(file.path(temp2, "SAPE8DT2a-LSOA-syoa-unformatted-males-mid2002-to-mid2006.xls"), 
                        sheet="Mid-2006", range="A1:CQ34754") %>% 
   gather(Age, Pop, c(5:95)) %>% 
@@ -622,16 +622,16 @@ IMD10 <- read_excel(temp, sheet="IMD 2010", range="A1:G32483") %>%
 
 IMD10 <- IMD10 %>% 
   mutate(`Index of Multiple Deprivation (IMD) Decile`=case_when(
-           decile==levels(IMD10$decile)[1] ~ 1,
-           decile==levels(IMD10$decile)[2] ~ 2,
-           decile==levels(IMD10$decile)[3] ~ 3,           
-           decile==levels(IMD10$decile)[4] ~ 4,           
-           decile==levels(IMD10$decile)[5] ~ 5,           
-           decile==levels(IMD10$decile)[6] ~ 6,           
-           decile==levels(IMD10$decile)[7] ~ 7,           
-           decile==levels(IMD10$decile)[8] ~ 8,           
-           decile==levels(IMD10$decile)[9] ~ 9,           
-           decile==levels(IMD10$decile)[10] ~ 10))
+    decile==levels(IMD10$decile)[1] ~ 1,
+    decile==levels(IMD10$decile)[2] ~ 2,
+    decile==levels(IMD10$decile)[3] ~ 3,           
+    decile==levels(IMD10$decile)[4] ~ 4,           
+    decile==levels(IMD10$decile)[5] ~ 5,           
+    decile==levels(IMD10$decile)[6] ~ 6,           
+    decile==levels(IMD10$decile)[7] ~ 7,           
+    decile==levels(IMD10$decile)[8] ~ 8,           
+    decile==levels(IMD10$decile)[9] ~ 9,           
+    decile==levels(IMD10$decile)[10] ~ 10))
 
 #2007
 temp <- tempfile()
@@ -641,21 +641,21 @@ temp <- curl_download(url=source, destfile=temp, quiet=FALSE, mode="wb")
 unzip(zipfile=temp, exdir=temp2)
 
 IMD07 <- read_excel(file.path(temp2, "IMD 2007 for DCLG 4 dec.xls"),
-                         sheet="IMD 2007", range=c("A1:G32483")) %>% 
+                    sheet="IMD 2007", range=c("A1:G32483")) %>% 
   mutate(decile=quantcut(`RANK OF IMD (where 1 is most deprived)`, 10))
 
 IMD07 <- IMD07 %>% 
   mutate(`Index of Multiple Deprivation (IMD) Decile`=case_when(
-           decile==levels(IMD10$decile)[1] ~ 1,
-           decile==levels(IMD10$decile)[2] ~ 2,
-           decile==levels(IMD10$decile)[3] ~ 3,           
-           decile==levels(IMD10$decile)[4] ~ 4,           
-           decile==levels(IMD10$decile)[5] ~ 5,           
-           decile==levels(IMD10$decile)[6] ~ 6,           
-           decile==levels(IMD10$decile)[7] ~ 7,           
-           decile==levels(IMD10$decile)[8] ~ 8,           
-           decile==levels(IMD10$decile)[9] ~ 9,           
-           decile==levels(IMD10$decile)[10] ~ 10))
+    decile==levels(IMD10$decile)[1] ~ 1,
+    decile==levels(IMD10$decile)[2] ~ 2,
+    decile==levels(IMD10$decile)[3] ~ 3,           
+    decile==levels(IMD10$decile)[4] ~ 4,           
+    decile==levels(IMD10$decile)[5] ~ 5,           
+    decile==levels(IMD10$decile)[6] ~ 6,           
+    decile==levels(IMD10$decile)[7] ~ 7,           
+    decile==levels(IMD10$decile)[8] ~ 8,           
+    decile==levels(IMD10$decile)[9] ~ 9,           
+    decile==levels(IMD10$decile)[10] ~ 10))
 
 #2004
 temp <- tempfile()
@@ -670,16 +670,16 @@ IMD04 <- read_excel(file.path(temp2, "SOA levelid2004.xls"),
 
 IMD04 <- IMD04 %>% 
   mutate(`Index of Multiple Deprivation (IMD) Decile`=case_when(
-           decile==levels(IMD10$decile)[1] ~ 1,
-           decile==levels(IMD10$decile)[2] ~ 2,
-           decile==levels(IMD10$decile)[3] ~ 3,           
-           decile==levels(IMD10$decile)[4] ~ 4,           
-           decile==levels(IMD10$decile)[5] ~ 5,           
-           decile==levels(IMD10$decile)[6] ~ 6,           
-           decile==levels(IMD10$decile)[7] ~ 7,           
-           decile==levels(IMD10$decile)[8] ~ 8,           
-           decile==levels(IMD10$decile)[9] ~ 9,           
-           decile==levels(IMD10$decile)[10] ~ 10))
+    decile==levels(IMD10$decile)[1] ~ 1,
+    decile==levels(IMD10$decile)[2] ~ 2,
+    decile==levels(IMD10$decile)[3] ~ 3,           
+    decile==levels(IMD10$decile)[4] ~ 4,           
+    decile==levels(IMD10$decile)[5] ~ 5,           
+    decile==levels(IMD10$decile)[6] ~ 6,           
+    decile==levels(IMD10$decile)[7] ~ 7,           
+    decile==levels(IMD10$decile)[8] ~ 8,           
+    decile==levels(IMD10$decile)[9] ~ 9,           
+    decile==levels(IMD10$decile)[10] ~ 10))
 
 
 #Read in LSOA2011 - LSOA2021 code lookup
@@ -1019,7 +1019,7 @@ AgeBandData <- Maindata5 %>%
             Pop=sum(Pop), .groups="drop") %>% 
   mutate(mx=Deaths*100000/Pop,
          Age10=factor(Age10, levels=c("0-9", "10-19", "20-29", "30-39", "40-49",
-                                       "50-59", "60-69", "70-79", "80-89", "90+"))) %>% 
+                                      "50-59", "60-69", "70-79", "80-89", "90+"))) %>% 
   #Calculate CIs for rates
   rowwise() %>% 
   mutate(LowerCI=mx-1.96*mx/sqrt(Deaths),
@@ -1038,8 +1038,7 @@ Maindata5 <- data.table::fread("Data/ASDPaperMaindata5.csv")
 ############################################################################Actual analysis
 
 #RQ1 overall
-agg_png("Outputs/OldhamASDFigure1.png", units="in", width=8, height=5, res=800)
-ASData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
+Figure1 <- ASData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
                     IMDq=="Overall") %>%
   ggplot(aes(x=Year, y=mx))+
   geom_hline(yintercept=0, colour="grey30")+
@@ -1053,12 +1052,16 @@ ASData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
   theme_custom()+
   annotate("text", x=2019.4, y=4, colour="grey50", label="COVID-19 pandemic", angle=90, size=4, family="Lato")
 
+agg_png("Outputs/OldhamASDFigure1.png", units="in", width=8, height=5, res=800)
+Figure1
 dev.off()
+
+ggsave("Outputs/OldhamASDFigure1.pdf", Figure1, units="in", width=8, height=5, dpi=800)
 
 #RQ1a by cause
 Fig2a <- ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Other", 
-                                "Other liver disease", "All alcohol-specific causes - wider") & 
-                    Sex=="Total" & IMDq=="Overall") %>%
+                                         "Other liver disease", "All alcohol-specific causes - wider") & 
+                             Sex=="Total" & IMDq=="Overall") %>%
   ggplot(aes(x=Year, y=mx, colour=Cause, fill=Cause))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_ribbon(aes(ymin=LowerCI, ymax=UpperCI),
@@ -1094,7 +1097,7 @@ ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Other",
 
 #RQ1b by age
 Fig2b <- AgeBandData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
-                         IMDq=="Overall") %>% 
+                                  IMDq=="Overall") %>% 
   #Remove under 20s due to tiny counts
   filter(!Age10 %in% c("0-9", "10-19")) %>% 
   ggplot(aes(x=Year, y=mx, colour=Age10, fill=Age10))+
@@ -1130,7 +1133,7 @@ AgeBandData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
 
 #RQ1c by sex
 Fig2c <- ASData %>% filter(Cause=="All alcohol-specific causes" & 
-                    Sex!="Total" & IMDq=="Overall") %>%
+                             Sex!="Total" & IMDq=="Overall") %>%
   ggplot(aes(x=Year, y=mx, colour=Sex, fill=Sex))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_ribbon(aes(ymin=LowerCI, ymax=UpperCI),
@@ -1146,7 +1149,7 @@ Fig2c <- ASData %>% filter(Cause=="All alcohol-specific causes" &
 
 #RQ1d by deprivation
 Fig2d <- ASData %>% filter(Cause=="All alcohol-specific causes" &
-                    Sex=="Total" & IMDq!="Overall") %>% 
+                             Sex=="Total" & IMDq!="Overall") %>% 
   ggplot(aes(x=Year, y=mx, colour=IMDq, fill=IMDq))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_ribbon(aes(ymin=LowerCI, ymax=UpperCI),
@@ -1164,8 +1167,7 @@ Fig2d <- ASData %>% filter(Cause=="All alcohol-specific causes" &
   guides(fill = guide_legend(reverse = TRUE), colour=guide_legend(reverse = TRUE))
 
 #Combine into big faceted plot
-agg_png("Outputs/OldhamASDFigure2.png", units="in", width=12, height=8, res=800)
-(Fig2a+theme(legend.position="top")+guides(fill=guide_legend(nrow=2, byrow=TRUE), 
+Figure2 <- (Fig2a+theme(legend.position="top")+guides(fill=guide_legend(nrow=2, byrow=TRUE), 
                                            colour=guide_legend(nrow=2, byrow=TRUE))+
     labs(title="A - Cause")|
     Fig2b+theme(legend.position="top")+guides(fill=guide_legend(nrow=2, byrow=TRUE), 
@@ -1174,16 +1176,22 @@ agg_png("Outputs/OldhamASDFigure2.png", units="in", width=12, height=8, res=800)
   (Fig2c+theme(legend.position="top")+labs(title="C - Sex")|
      Fig2d+theme(legend.position="top")+labs(title="D - IMD quintile"))
 
+agg_png("Outputs/OldhamASDFigure2.png", units="in", width=12, height=8, res=800)
+Figure2
 dev.off()
+
+ggsave("Outputs/OldhamASDFigure2.pdf", Figure2, units="in", width=12, height=8, dpi=800)
+
 
 #check proportional distribution of deaths between cause groups around pandemic period
 agg_png("Outputs/OldhamASDFigureS1.png", units="in", width=8, height=5, res=800)
 ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Other", 
                                 "Other liver disease", "All alcohol-specific causes - wider") &
-                    Sex=="Total" & IMDq=="Overall" & Year>=2017) %>% 
+                    Sex=="Total" & IMDq=="Overall") %>% 
   ggplot(aes(x=Year, y=mx, fill=Cause))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_area(position="fill")+
+  geom_vline(xintercept=2017, colour="white", linetype=2)+
   scale_x_continuous(name="")+
   scale_y_continuous(name="Proportion of age-standardised deaths",
                      labels=label_percent(accuracy=1))+
@@ -1194,11 +1202,12 @@ dev.off()
 
 #Proportion of deaths by age
 agg_png("Outputs/OldhamASDFigureS2.png", units="in", width=8, height=5, res=800)
-AgeBandData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" & IMDq=="Overall" & Year>=2017 &
+AgeBandData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" & IMDq=="Overall" &
                          !Age10 %in% c("0-9", "10-19")) %>% 
   ggplot(aes(x=Year, y=Deaths, fill=Age10))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_area(position="fill")+
+  geom_vline(xintercept=2017, colour="white", linetype=2)+
   scale_x_continuous(name="")+
   scale_y_continuous(name="Proportion of alcohol-specific deaths",
                      labels=label_percent(accuracy=1))+
@@ -1210,10 +1219,11 @@ dev.off()
 
 #Proportion of deaths by sex
 agg_png("Outputs/OldhamASDFigureS3.png", units="in", width=8, height=5, res=800)
-ASData %>% filter(Cause=="All alcohol-specific causes" & Sex!="Total" & IMDq=="Overall" & Year>=2017) %>% 
+ASData %>% filter(Cause=="All alcohol-specific causes" & Sex!="Total" & IMDq=="Overall") %>% 
   ggplot(aes(x=Year, y=mx, fill=Sex))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_area(position="fill")+
+  geom_vline(xintercept=2017, colour="white", linetype=2)+
   scale_x_continuous(name="")+
   scale_y_continuous(name="Proportion of age-standardised deaths",
                      labels=label_percent(accuracy=1))+
@@ -1224,10 +1234,11 @@ dev.off()
 
 #Proportion of deaths by IMDq
 agg_png("Outputs/OldhamASDFigureS4.png", units="in", width=8, height=5, res=800)
-ASData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" & IMDq!="Overall" & Year>=2017) %>% 
+ASData %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" & IMDq!="Overall") %>% 
   ggplot(aes(x=Year, y=mx, fill=IMDq))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_area(position="fill")+
+  geom_vline(xintercept=2017, colour="white", linetype=2)+
   scale_x_continuous(name="")+
   scale_y_continuous(name="Proportion of age-standardised deaths",
                      labels=label_percent(accuracy=1))+
@@ -1296,8 +1307,8 @@ ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3a <- ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" & 
-                         !Cause %in% c("Other", "All alcohol-specific causes - wider",
-                                       "Other liver disease")) %>% 
+                                  !Cause %in% c("Other", "All alcohol-specific causes - wider",
+                                                "Other liver disease")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
                                       "Alcohol-related liver disease", 
@@ -1318,7 +1329,7 @@ Fig3a <- ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" &
 
 #By age
 ModelData10 %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
-                       IMDq=="Overall") %>% 
+                         IMDq=="Overall") %>% 
   filter(!Age10 %in% c("0-9", "10-19")) %>% 
   ggplot(aes(x=RateDiff, y=Age10, fill=Age10))+
   geom_col(show.legend=FALSE)+
@@ -1332,7 +1343,7 @@ ModelData10 %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3b <- ModelData10 %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
-                         IMDq=="Overall") %>% 
+                                  IMDq=="Overall") %>% 
   filter(!Age10 %in% c("0-9", "10-19")) %>% 
   ggplot(aes(x=RateRatio, y=Age10, fill=Age10))+
   geom_col(show.legend=FALSE)+
@@ -1349,7 +1360,7 @@ Fig3b <- ModelData10 %>% filter(Cause=="All alcohol-specific causes" & Sex=="Tot
 
 #By Sex
 ModelDataAS %>% filter(Sex!="Total" & IMDq=="Overall" & 
-                        Cause=="All alcohol-specific causes") %>% 
+                         Cause=="All alcohol-specific causes") %>% 
   ggplot(aes(x=RateDiff, y=Sex, fill=Sex))+
   geom_col(show.legend=FALSE)+
   geom_vline(xintercept=0, colour="grey30")+
@@ -1362,7 +1373,7 @@ ModelDataAS %>% filter(Sex!="Total" & IMDq=="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3c <- ModelDataAS %>% filter(Sex!="Total" & IMDq=="Overall" & 
-                         Cause=="All alcohol-specific causes") %>% 
+                                  Cause=="All alcohol-specific causes") %>% 
   ggplot(aes(x=RateRatio, y=Sex, fill=Sex))+
   geom_col(show.legend=FALSE)+
   geom_vline(xintercept=1, colour="grey30")+
@@ -1392,7 +1403,7 @@ ModelDataAS %>% filter(Sex=="Total" & IMDq!="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3d <- ModelDataAS %>% filter(Sex=="Total" & IMDq!="Overall" & 
-                         Cause=="All alcohol-specific causes") %>% 
+                                  Cause=="All alcohol-specific causes") %>% 
   ggplot(aes(x=RateRatio, y=IMDq, fill=IMDq))+
   geom_col(show.legend=FALSE)+
   geom_vline(xintercept=1, colour="grey30")+
@@ -1408,16 +1419,20 @@ Fig3d <- ModelDataAS %>% filter(Sex=="Total" & IMDq!="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 #Combine relative changes into one big plot
-agg_png("Outputs/OldhamASDFigure3.png", units="in", width=12, height=8, res=800)
-(Fig3a+theme(legend.position="top")+guides(fill=guide_legend(nrow=2), 
+Figure3 <- (Fig3a+theme(legend.position="top")+guides(fill=guide_legend(nrow=2), 
                                            colour=guide_legend(nrow=2))+
     labs(title="A - Cause"))+
-    (Fig3b+theme(legend.position="top")+labs(title="B - Age"))+
+  (Fig3b+theme(legend.position="top")+labs(title="B - Age"))+
   (Fig3c+theme(legend.position="top")+labs(title="C - Sex"))+
-     (Fig3d+theme(legend.position="top")+labs(title="D - IMD quintile"))+
+  (Fig3d+theme(legend.position="top")+labs(title="D - IMD quintile"))+
   plot_layout(widths=c(1,1.7), heights=c(1,1))
 
+agg_png("Outputs/OldhamASDFigure3.png", units="in", width=12, height=8, res=800)
+Figure3
 dev.off()
+
+ggsave("Outputs/OldhamASDFigure3.pdf", Figure3, units="in", width=12, height=8, dpi=800)
+
 
 #Table of absolute and relative crude changes in rates
 Table1Data <- ModelDataAS %>% 
@@ -1443,10 +1458,10 @@ Table1Data <- ModelDataAS %>%
               select(Cat, SubCat, Pandemic, `Pre-pandemic`, RateDiff, RateRatio)) 
 
 Table1 <- Table1Data %>% mutate(RateRatio=RateRatio-1,
-                      RateRatio=if_else(RateRatio>0, paste0("+", as.character(round(RateRatio*100, 1)), "%"), 
-                                        paste0(as.character(round(RateRatio, 1)), "%")),
-                      RateDiff=if_else(RateDiff>0, paste0("+", as.character(round(RateDiff, 2))), 
-                                       as.character(round(RateDiff, 2)))) %>% 
+                                RateRatio=if_else(RateRatio>0, paste0("+", as.character(round(RateRatio*100, 1)), "%"), 
+                                                  paste0(as.character(round(RateRatio, 1)), "%")),
+                                RateDiff=if_else(RateDiff>0, paste0("+", as.character(round(RateDiff, 2))), 
+                                                 as.character(round(RateDiff, 2)))) %>% 
   group_by(Cat) %>% 
   gt(rowname_col="SubCat") %>%
   fmt_number(columns=c("Pandemic", "Pre-pandemic"), decimals=2) %>% 
@@ -1525,7 +1540,7 @@ Model1Sex <- gComp(Model1AgeData, outcome.type="rate_nb", Y="Deaths", X="Sex", Z
 summary(Model1Sex)
 
 Model1IMDq <- gComp(Model1AgeData, outcome.type="rate_nb", Y="Deaths", X="IMDq", Z=c("Age10", "Sex"),
-                   offset="Pop", R=200, rate.multiplier=100000)
+                    offset="Pop", R=200, rate.multiplier=100000)
 
 summary(Model1IMDq)
 
@@ -1558,7 +1573,7 @@ PreResults <- Model1Age$results.df %>%
               mutate(Cat="IMDq", SubCat=substr(Comparison, 1,6)) %>% 
               select(-c(Outcome, Comparison)) %>% 
               set_names("Rate Difference Pre", "Rate Ratio Pre", "Cat", "SubCat"))
-  
+
 #2020-22
 Model2AgeData <- PostModelData %>% 
   mutate(Age10=factor(Age10), Sex=factor(Sex), IMDq=factor(IMDq))
@@ -1626,7 +1641,7 @@ Table2 <- merge(PreResults, PostResults) %>%
              `Rate Ratio Post`="2020-22",
              `Rate Difference Pre`="2017-19",
              `Rate Difference Post`="2020-22")
-  
+
 #Export table2
 gtsave(Table2, "Outputs/OldhamASDTable2.docx") 
 
@@ -1672,8 +1687,8 @@ ModelData10SA1 <- AgeBandData %>%
          RateRatio=Pandemic/`Pre-pandemic`)
 
 Fig3aSA1 <- ModelDataASSA1 %>% filter(Sex=="Total" & IMDq=="Overall" & 
-                                  !Cause %in% c("Other", "All alcohol-specific causes - wider",
-                                                "Other liver disease")) %>% 
+                                        !Cause %in% c("Other", "All alcohol-specific causes - wider",
+                                                      "Other liver disease")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
                                       "Alcohol-related liver disease", 
@@ -1693,7 +1708,7 @@ Fig3aSA1 <- ModelDataASSA1 %>% filter(Sex=="Total" & IMDq=="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3bSA1 <- ModelData10SA1 %>% filter(Cause=="All alcohol-specific causes" & Sex=="Total" &
-                                  IMDq=="Overall") %>% 
+                                        IMDq=="Overall") %>% 
   filter(!Age10 %in% c("0-9", "10-19")) %>% 
   ggplot(aes(x=RateRatio, y=Age10, fill=Age10))+
   geom_col(show.legend=FALSE)+
@@ -1709,7 +1724,7 @@ Fig3bSA1 <- ModelData10SA1 %>% filter(Cause=="All alcohol-specific causes" & Sex
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3cSA1 <- ModelDataASSA1 %>% filter(Sex!="Total" & IMDq=="Overall" & 
-                                  Cause=="All alcohol-specific causes") %>% 
+                                        Cause=="All alcohol-specific causes") %>% 
   ggplot(aes(x=RateRatio, y=Sex, fill=Sex))+
   geom_col(show.legend=FALSE)+
   geom_vline(xintercept=1, colour="grey30")+
@@ -1724,7 +1739,7 @@ Fig3cSA1 <- ModelDataASSA1 %>% filter(Sex!="Total" & IMDq=="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3dSA1 <- ModelDataASSA1 %>% filter(Sex=="Total" & IMDq!="Overall" & 
-                                  Cause=="All alcohol-specific causes") %>% 
+                                        Cause=="All alcohol-specific causes") %>% 
   ggplot(aes(x=RateRatio, y=IMDq, fill=IMDq))+
   geom_col(show.legend=FALSE)+
   geom_vline(xintercept=1, colour="grey30")+
@@ -1742,7 +1757,7 @@ Fig3dSA1 <- ModelDataASSA1 %>% filter(Sex=="Total" & IMDq!="Overall" &
 #Combine relative changes into one big plot
 agg_png("Outputs/OldhamASDFigure3SA1.png", units="in", width=12, height=8, res=800)
 (Fig3aSA1+theme(legend.position="top")+guides(fill=guide_legend(nrow=2), 
-                                           colour=guide_legend(nrow=2))+
+                                              colour=guide_legend(nrow=2))+
     labs(title="A - Cause"))+
   (Fig3bSA1+theme(legend.position="top")+labs(title="B - Age"))+
   (Fig3cSA1+theme(legend.position="top")+labs(title="C - Sex"))+
@@ -1911,8 +1926,8 @@ dev.off()
 
 #RQ1a by cause
 Fig2aSA2 <- ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Other", 
-                                         "All alcohol-specific causes - wider") & 
-                             Sex=="Total" & IMDq=="Overall") %>%
+                                            "All alcohol-specific causes - wider") & 
+                                Sex=="Total" & IMDq=="Overall") %>%
   ggplot(aes(x=Year, y=mx, colour=Cause, fill=Cause))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_ribbon(aes(ymin=LowerCI, ymax=UpperCI),
@@ -1928,7 +1943,7 @@ Fig2aSA2 <- ASData %>% filter(!Cause %in% c("All alcohol-specific causes", "Othe
 
 #RQ1b by age
 Fig2bSA2 <- AgeBandData %>% filter(Cause=="All alcohol-specific causes - wider" & Sex=="Total" &
-                                  IMDq=="Overall") %>% 
+                                     IMDq=="Overall") %>% 
   #Remove under 20s due to tiny counts
   filter(!Age10 %in% c("0-9", "10-19")) %>% 
   ggplot(aes(x=Year, y=mx, colour=Age10, fill=Age10))+
@@ -1946,7 +1961,7 @@ Fig2bSA2 <- AgeBandData %>% filter(Cause=="All alcohol-specific causes - wider" 
 
 #RQ1c by sex
 Fig2cSA2 <- ASData %>% filter(Cause=="All alcohol-specific causes - wider" & 
-                             Sex!="Total" & IMDq=="Overall") %>%
+                                Sex!="Total" & IMDq=="Overall") %>%
   ggplot(aes(x=Year, y=mx, colour=Sex, fill=Sex))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_ribbon(aes(ymin=LowerCI, ymax=UpperCI),
@@ -1962,7 +1977,7 @@ Fig2cSA2 <- ASData %>% filter(Cause=="All alcohol-specific causes - wider" &
 
 #RQ1d by deprivation
 Fig2dSA2 <- ASData %>% filter(Cause=="All alcohol-specific causes - wider" &
-                             Sex=="Total" & IMDq!="Overall") %>% 
+                                Sex=="Total" & IMDq!="Overall") %>% 
   ggplot(aes(x=Year, y=mx, colour=IMDq, fill=IMDq))+
   geom_hline(yintercept=0, colour="grey30")+
   geom_ribbon(aes(ymin=LowerCI, ymax=UpperCI),
@@ -1982,7 +1997,7 @@ Fig2dSA2 <- ASData %>% filter(Cause=="All alcohol-specific causes - wider" &
 #Combine into big faceted plot
 agg_png("Outputs/OldhamASDFigure2SA2.png", units="in", width=12, height=8, res=800)
 (Fig2aSA2+theme(legend.position="top")+guides(fill=guide_legend(nrow=2,byrow=TRUE), 
-                                           colour=guide_legend(nrow=2,byrow=TRUE))+
+                                              colour=guide_legend(nrow=2,byrow=TRUE))+
     labs(title="A - Cause")|
     Fig2bSA2+theme(legend.position="top")+guides(fill=guide_legend(nrow=2,byrow=TRUE), 
                                                  colour=guide_legend(nrow=2,byrow=TRUE))+labs(title="B - Age"))/
@@ -2074,7 +2089,7 @@ ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3aSA2 <- ModelDataAS %>% filter(Sex=="Total" & IMDq=="Overall" & 
-                                  !Cause %in% c("Other", "All alcohol-specific causes")) %>% 
+                                     !Cause %in% c("Other", "All alcohol-specific causes")) %>% 
   mutate(Cause=factor(Cause, levels=c("Other alcohol-specific causes",
                                       "Alcohol dependence syndrome",
                                       "Alcohol-related liver disease", 
@@ -2110,7 +2125,7 @@ ModelData10 %>% filter(Cause=="All alcohol-specific causes - wider" & Sex=="Tota
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3bSA2 <- ModelData10 %>% filter(Cause=="All alcohol-specific causes - wider" & Sex=="Total" &
-                                  IMDq=="Overall") %>% 
+                                     IMDq=="Overall") %>% 
   filter(!Age10 %in% c("0-9", "10-19")) %>% 
   ggplot(aes(x=RateRatio, y=Age10, fill=Age10))+
   geom_col(show.legend=FALSE)+
@@ -2140,7 +2155,7 @@ ModelDataAS %>% filter(Sex!="Total" & IMDq=="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3cSA2 <- ModelDataAS %>% filter(Sex!="Total" & IMDq=="Overall" & 
-                                  Cause=="All alcohol-specific causes - wider") %>% 
+                                     Cause=="All alcohol-specific causes - wider") %>% 
   ggplot(aes(x=RateRatio, y=Sex, fill=Sex))+
   geom_col(show.legend=FALSE)+
   geom_vline(xintercept=1, colour="grey30")+
@@ -2170,7 +2185,7 @@ ModelDataAS %>% filter(Sex=="Total" & IMDq!="Overall" &
         panel.grid.major.x=element_line(colour="grey95"))
 
 Fig3dSA2 <- ModelDataAS %>% filter(Sex=="Total" & IMDq!="Overall" & 
-                                  Cause=="All alcohol-specific causes - wider") %>% 
+                                     Cause=="All alcohol-specific causes - wider") %>% 
   ggplot(aes(x=RateRatio, y=IMDq, fill=IMDq))+
   geom_col(show.legend=FALSE)+
   geom_vline(xintercept=1, colour="grey30")+
@@ -2188,7 +2203,7 @@ Fig3dSA2 <- ModelDataAS %>% filter(Sex=="Total" & IMDq!="Overall" &
 #Combine relative changes into one big plot
 agg_png("Outputs/OldhamASDFigure3SA2.png", units="in", width=12, height=8, res=800)
 (Fig3aSA2+theme(legend.position="top")+guides(fill=guide_legend(nrow=2), 
-                                           colour=guide_legend(nrow=2))+
+                                              colour=guide_legend(nrow=2))+
     labs(title="A - Cause"))+
   (Fig3bSA2+theme(legend.position="top")+labs(title="B - Age"))+
   (Fig3cSA2+theme(legend.position="top")+labs(title="C - Sex"))+
@@ -2221,10 +2236,10 @@ Table1DataSA2 <- ModelDataAS %>%
               select(Cat, SubCat, Pandemic, `Pre-pandemic`, RateDiff, RateRatio)) 
 
 Table1SA2 <- Table1DataSA2 %>% mutate(RateRatio=RateRatio-1,
-                                RateRatio=if_else(RateRatio>0, paste0("+", as.character(round(RateRatio*100, 1)), "%"), 
-                                                  paste0(as.character(round(RateRatio, 1)), "%")),
-                                RateDiff=if_else(RateDiff>0, paste0("+", as.character(round(RateDiff, 2))), 
-                                                 as.character(round(RateDiff, 2)))) %>% 
+                                      RateRatio=if_else(RateRatio>0, paste0("+", as.character(round(RateRatio*100, 1)), "%"), 
+                                                        paste0(as.character(round(RateRatio, 1)), "%")),
+                                      RateDiff=if_else(RateDiff>0, paste0("+", as.character(round(RateDiff, 2))), 
+                                                       as.character(round(RateDiff, 2)))) %>% 
   group_by(Cat) %>% 
   gt(rowname_col="SubCat") %>%
   fmt_number(columns=c("Pandemic", "Pre-pandemic"), decimals=2) %>% 
@@ -2262,7 +2277,7 @@ PostModelDataSA2 <- AgeBandData %>%
 
 #Fit models
 Model1SA2 <- glm(data=PreModelDataSA2, formula=Deaths~factor(Age10)+factor(Sex)+factor(IMDq)+offset(logPop), 
-              family=quasipoisson)
+                 family=quasipoisson)
 
 summary(Model1SA2)
 
@@ -2275,7 +2290,7 @@ Model1OutSA2 <- tidy(Model1SA2) %>%
          UpperCI=exp(UpperCI))
 
 Model2SA2 <- glm(data=PostModelDataSA2, formula=Deaths~factor(Age10)+factor(Sex)+factor(IMDq)+offset(logPop), 
-              family=quasipoisson)
+                 family=quasipoisson)
 
 summary(Model2SA2)
 
@@ -2293,17 +2308,17 @@ Model1AgeDataSA2 <- PreModelDataSA2 %>%
   mutate(Age10=factor(Age10), Sex=factor(Sex), IMDq=factor(IMDq))
 
 Model1AgeSA2 <- gComp(Model1AgeDataSA2, outcome.type="rate_nb", Y="Deaths", X="Age10", Z=c("Sex", "IMDq"),
-                   offset="Pop", R=200, rate.multiplier=100000)
+                      offset="Pop", R=200, rate.multiplier=100000)
 
 summary(Model1AgeSA2)
 
 Model1SexSA2 <- gComp(Model1AgeDataSA2, outcome.type="rate_nb", Y="Deaths", X="Sex", Z=c("Age10", "IMDq"),
-                   offset="Pop", R=200, rate.multiplier=100000)
+                      offset="Pop", R=200, rate.multiplier=100000)
 
 summary(Model1SexSA2)
 
 Model1IMDqSA2 <- gComp(Model1AgeDataSA2, outcome.type="rate_nb", Y="Deaths", X="IMDq", Z=c("Age10", "Sex"),
-                    offset="Pop", R=200, rate.multiplier=100000)
+                       offset="Pop", R=200, rate.multiplier=100000)
 
 summary(Model1IMDqSA2)
 
@@ -2342,17 +2357,17 @@ Model2AgeDataSA2 <- PostModelDataSA2 %>%
   mutate(Age10=factor(Age10), Sex=factor(Sex), IMDq=factor(IMDq))
 
 Model2AgeSA2 <- gComp(Model2AgeDataSA2, outcome.type="rate_nb", Y="Deaths", X="Age10", Z=c("Sex", "IMDq"),
-                   offset="Pop", R=200, rate.multiplier=100000)
+                      offset="Pop", R=200, rate.multiplier=100000)
 
 summary(Model2AgeSA2)
 
 Model2SexSA2 <- gComp(Model2AgeDataSA2, outcome.type="rate_nb", Y="Deaths", X="Sex", Z=c("Age10", "IMDq"),
-                   offset="Pop", R=200, rate.multiplier=100000)
+                      offset="Pop", R=200, rate.multiplier=100000)
 
 summary(Model2SexSA2)
 
 Model2IMDqSA2 <- gComp(Model2AgeDataSA2, outcome.type="rate_nb", Y="Deaths", X="IMDq", Z=c("Age10", "Sex"),
-                    offset="Pop", R=200, rate.multiplier=100000)
+                       offset="Pop", R=200, rate.multiplier=100000)
 
 summary(Model2IMDqSA2)
 
@@ -2420,4 +2435,167 @@ RateChanges %>% filter(Year %in% c(2019, 2022)) %>%
 
 RateChanges %>% filter(Year %in% c(2001, 2008)) %>% 
   mutate(PercChange=(mx-lag(mx,1))/lag(mx,1))
+
+######################################################################
+#Joinpoint analysis
+#Pull out data files
+
+#Extract cause-specific data
+JP_cause <- ASData %>% 
+  filter(Sex=="Total" & IMDq=="Overall") %>% 
+  select(Year, Cause, mx) %>% 
+  arrange(Cause, Year)
+
+data.table::fwrite(JP_cause, "Data/JP_cause.csv")
+
+#Extract sex-specific data
+JP_sex <- ASData %>% 
+  filter(Sex!="Total" & IMDq=="Overall" & Cause=="All alcohol-specific causes") %>% 
+  select(Year, Sex, mx)%>% 
+  arrange(Sex, Year)
+
+data.table::fwrite(JP_sex, "Data/JP_sex.csv")
+
+#Extract age-specific data
+JP_age <- AgeBandData %>% 
+  filter(Sex=="Total" & IMDq=="Overall" & Cause=="All alcohol-specific causes" &
+           !Age10 %in% c("0-9", "10-19")) %>% 
+  select(Year, Age10, mx)%>% 
+  arrange(Age10, Year)
+
+data.table::fwrite(JP_age, "Data/JP_age.csv")
+
+#Extract IMD-group data
+JP_IMD <- ASData %>% 
+  filter(Sex=="Total" & IMDq!="Overall" & Cause=="All alcohol-specific causes") %>% 
+  select(Year, IMDq, mx)%>% 
+  arrange(IMDq, Year)
+
+data.table::fwrite(JP_IMD, "Data/JP_IMD.csv")
+
+#Do actual joinpoint analysis in US National Cancer Institute's Joinpoint Regression Programme
+#Available from https://surveillance.cancer.gov/joinpoint/
+#Upload each file above, assume constant variance, no log transformation, 
+#mx as the age-adjusted rate, Year as the independent variable, the grouping variable (cause, sex age, IMDq)
+#as the By variable and execute, exporting the data and model estimates files from each
+
+#Read these back in
+JP_cause_output <- read.csv("Data/Cause.Export.Data.txt") %>% 
+  #Assign factor levels to Cause variable from original data
+  mutate(Cause=case_when(
+    Cause==0 ~ levels(as.factor(JP_cause$Cause))[1],
+    Cause==1 ~ levels(as.factor(JP_cause$Cause))[3],
+    Cause==2 ~ levels(as.factor(JP_cause$Cause))[2],
+    Cause==3 ~ levels(as.factor(JP_cause$Cause))[4],
+    Cause==8 ~ levels(as.factor(JP_cause$Cause))[5],
+    Cause==5 ~ levels(as.factor(JP_cause$Cause))[6],
+    Cause==6 ~ levels(as.factor(JP_cause$Cause))[7],
+    TRUE ~ levels(as.factor(JP_cause$Cause))[8]))
+
+#Plot to check all correct
+ggplot(JP_cause_output, aes(x=Year, colour=Cause))+
+  geom_point(aes(y=mx))+
+  geom_line(aes(y=Model))+
+  facet_wrap(~Cause, scales="free_y")+
+  theme_custom()
+
+#Strip down to match main paper analysis
+JP_cause_output_paper <- JP_cause_output %>% 
+  filter(Cause %in% c("All alcohol-specific causes", "Acute causes", "Alcohol-related liver disease",
+                      "Alcohol dependence syndrome", "Other alcohol-specific causes"))
+
+#Plot
+agg_png("Outputs/OldhamASDJoinpointxCause.png", units="in", width=12, height=8, res=800)
+ggplot(JP_cause_output_paper, aes(x=Year, colour=Cause))+
+  geom_hline(yintercept=0, colour="grey30")+
+  geom_point(aes(y=mx))+
+  geom_line(aes(y=Model))+
+  scale_x_continuous(name="")+
+  scale_y_continuous(name="Age-standardised deaths per 100,000", limits=c(0,NA))+
+  scale_colour_manual(values=c("#0072CE", "#F9423A", "#041E42", "forestgreen", "#FFB81C"))+
+  facet_wrap(~Cause, scales="free_y")+
+  theme_custom()+
+  theme(legend.position="none")
+
+dev.off()
+
+#Read these back in
+JP_sex_output <- read.csv("Data/Sex.Export.Data.txt") %>%   
+  mutate(Sex=if_else(Sex==0, "Female", "Male"))
+
+#Plot
+agg_png("Outputs/OldhamASDJoinpointxSex.png", units="in", width=12, height=8, res=800)
+ggplot(JP_sex_output, aes(x=Year, colour=Sex))+
+  geom_hline(yintercept=0, colour="grey30")+
+  geom_point(aes(y=mx))+
+  geom_line(aes(y=Model))+
+  scale_x_continuous(name="")+
+  scale_y_continuous(name="Age-standardised deaths per 100,000", limits=c(0,NA))+
+  scale_colour_manual(values=c("#00cc99", "#6600cc"))+
+  facet_wrap(~Sex, scales="free_y")+
+  theme_custom()+
+  theme(legend.position="none")
+
+dev.off()
+
+#Read these back in
+JP_age_output <- read.csv("Data/Age.Export.Data.txt") %>%   
+  mutate(Age10=case_when(
+    Age10==0~"20-29", Age10==1~"30-39", Age10==2~"40-49", Age10==3~"50-59",
+    Age10==4~"60-69", Age10==5~"70-79", Age10==6~"80-89", TRUE~"90+"))
+
+#Plot to check all correct
+ggplot(JP_age_output, aes(x=Year, colour=Age10))+
+  geom_point(aes(y=mx))+
+  geom_line(aes(y=Model))+
+  facet_wrap(~Age10, scales="free_y")+
+  theme_custom()
+
+#Plot
+agg_png("Outputs/OldhamASDJoinpointxAge.png", units="in", width=12, height=8, res=800)
+ggplot(JP_age_output, aes(x=Year, colour=Age10))+
+  geom_hline(yintercept=0, colour="grey30")+
+  geom_point(aes(y=mx))+
+  geom_line(aes(y=Model))+
+  scale_x_continuous(name="")+
+  scale_y_continuous(name="Age-standardised deaths per 100,000", limits=c(0,NA))+
+  scale_colour_paletteer_d("colorblindr::OkabeIto", name="")+
+  facet_wrap(~Age10, scales="free_y")+
+  theme_custom()+
+  theme(legend.position="none")
+
+dev.off()
+
+#Read these back in
+JP_IMD_output <- read.csv("Data/IMD.Export.Data.txt") %>%   
+  mutate(IMDq=case_when(
+    IMDq==0 ~ "Q1 (least deprived", IMDq==1 ~ "Q2", IMDq==2 ~ "Q3", IMDq==3 ~ "Q4",
+    TRUE ~ "Q5 (most deprived)"))
+
+#Plot to check all correct
+ggplot(JP_IMD_output, aes(x=Year, colour=IMDq))+
+  geom_point(aes(y=mx))+
+  geom_line(aes(y=Model))+
+  facet_wrap(~IMDq, scales="free_y")+
+  theme_custom()
+
+#Plot
+agg_png("Outputs/OldhamASDJoinpointxIMD.png", units="in", width=12, height=8, res=800)
+ggplot(JP_IMD_output, aes(x=Year, colour=IMDq))+
+  geom_hline(yintercept=0, colour="grey30")+
+  geom_point(aes(y=mx))+
+  geom_line(aes(y=Model))+
+  scale_x_continuous(name="")+
+  scale_y_continuous(name="Age-standardised deaths per 100,000", limits=c(0,NA))+
+  scale_colour_manual(values=c("#fcc5c0", "#fa9fb5", "#f768a1", "#c51b8a",
+                               "#7a0177"), name="")+
+  facet_wrap(~IMDq, scales="free_y")+
+  theme_custom()+
+  theme(legend.position="none")
+
+dev.off()
+
+
+
+
 
