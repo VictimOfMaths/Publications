@@ -357,7 +357,8 @@ finaldata <- rawdata %>%
          SpiritsProp=Spirits/Total)
 
 #Read in population data from https://data.cso.ie/table/PEA01
-Pop <- read.csv("Data/ROI Affordability/ROIPopulation.csv")
+#Pop <- read.csv("Data/ROI Affordability/ROIPopulation.csv")
+Pop <- read.csv("Data/ROI Affordability/ROIPopulation15Plus.csv")
 
 percapdata <- finaldata %>% 
   mutate(Year=year(Date)) %>% 
@@ -397,8 +398,8 @@ percapdata %>%
   scale_y_continuous(name="Total litres of alcohol cleared for sale per capita\n(rolling 12-month average)")+
   theme_custom()+
   theme(axis.line.x=element_blank())+
-  labs(title="The total volume of alcohol sold per person in Ireland has fallen slightly",
-       subtitle="Rolling 12-month average of total alcohol cleared for sale in Ireland per person.\nFigures for wine and cider are estimated from total product volumes.\n",
+  labs(title="The total volume of alcohol sold per adult in Ireland has fallen",
+       subtitle="Rolling 12-month average of total alcohol cleared for sale in Ireland per adult (aged 15+)\nFigures for wine and cider are estimated from total product volumes.\n",
        caption="Data from Revenue and CSO")
 
 dev.off()
@@ -453,7 +454,7 @@ percapdata %>%
   theme_custom()+
   theme(axis.line.x=element_blank())+
   labs(title="Beer sales fell during the pandemic, wine sales rose",
-       subtitle="Rolling 12-month average of alcohol cleared for sale in Ireland per person.\nFigures for wine and cider are estimated from total product volumes.",
+       subtitle="Rolling 12-month average of alcohol cleared for sale in Ireland per adult (aged 15+).\nFigures for wine and cider are estimated from total product volumes.",
        caption="Data from Revenue and CSO")
 
 dev.off()
