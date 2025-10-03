@@ -1,0 +1,131 @@
+"Notes","Five-Year Age Groups","Five-Year Age Groups Code","Sex","Sex Code",Deaths,Population,Crude Rate
+,"< 1 year","1","Female","F",0,1784146,Unreliable
+,"< 1 year","1","Male","M",Suppressed,1864508,Suppressed
+,"1-4 years","1-4","Female","F",Suppressed,7267615,Suppressed
+,"1-4 years","1-4","Male","M",Suppressed,7594891,Suppressed
+,"5-9 years","5-9","Female","F",0,9848037,Unreliable
+,"5-9 years","5-9","Male","M",Suppressed,10304720,Suppressed
+,"10-14 years","10-14","Female","F",Suppressed,10166646,Suppressed
+,"10-14 years","10-14","Male","M",Suppressed,10667918,Suppressed
+,"15-19 years","15-19","Female","F",Suppressed,10778845,Suppressed
+,"15-19 years","15-19","Male","M",22,11296635,0.2
+,"20-24 years","20-24","Female","F",59,10684361,0.6
+,"20-24 years","20-24","Male","M",86,11126811,0.8
+,"25-29 years","25-29","Female","F",265,10842462,2.4
+,"25-29 years","25-29","Male","M",516,11175898,4.6
+,"30-34 years","30-34","Female","F",788,11640867,6.8
+,"30-34 years","30-34","Male","M",1325,11883289,11.2
+,"35-39 years","35-39","Female","F",1187,11142564,10.7
+,"35-39 years","35-39","Male","M",2250,11364080,19.8
+,"40-44 years","40-44","Female","F",1486,10885893,13.7
+,"40-44 years","40-44","Male","M",3033,10998156,27.6
+,"45-49 years","45-49","Female","F",1711,9930655,17.2
+,"45-49 years","45-49","Male","M",3575,9886355,36.2
+,"50-54 years","50-54","Female","F",2324,10376017,22.4
+,"50-54 years","50-54","Male","M",4907,10300754,47.6
+,"55-59 years","55-59","Female","F",2866,10439866,27.5
+,"55-59 years","55-59","Male","M",6220,10166391,61.2
+,"60-64 years ","60-64","Female","F",3423,10910700,31.4
+,"60-64 years ","60-64","Male","M",7562,10337454,73.2
+,"65-69 years","65-69","Female","F",3104,10025468,31.0
+,"65-69 years","65-69","Male","M",6391,9125260,70.0
+,"70-74 years","70-74","Female","F",2570,8324736,30.9
+,"70-74 years","70-74","Male","M",4390,7209820,60.9
+,"75-79 years","75-79","Female","F",2004,6221394,32.2
+,"75-79 years","75-79","Male","M",2838,5166023,54.9
+,"80-84 years","80-84","Female","F",1282,3984204,32.2
+,"80-84 years","80-84","Male","M",1607,2996476,53.6
+,"85-89 years","85-89","Female","F",745,Not Applicable,Not Applicable
+,"85-89 years","85-89","Male","M",819,Not Applicable,Not Applicable
+,"90-94 years","90-94","Female","F",311,Not Applicable,Not Applicable
+,"90-94 years","90-94","Male","M",271,Not Applicable,Not Applicable
+,"95-99 years","95-99","Female","F",69,Not Applicable,Not Applicable
+,"95-99 years","95-99","Male","M",63,Not Applicable,Not Applicable
+,"100+ years","100+","Female","F",Suppressed,Not Applicable,Not Applicable
+,"100+ years","100+","Male","M",Suppressed,Not Applicable,Not Applicable
+"---"
+"Dataset: Underlying Cause of Death, 2018-2023, Single Race"
+"Query Parameters:"
+"Five-Year Age Groups: < 1 year; 1-4 years; 5-9 years; 10-14 years; 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39"
+"years; 40-44 years; 45-49 years; 50-54 years; 55-59 years; 60-64 years ; 65-69 years; 70-74 years; 75-79 years; 80-84 years;"
+"85-89 years; 90-94 years; 95-99 years; 100+ years"
+"ICD-10 Codes: F10.0 (Mental and behavioural disorders due to use of alcohol, acute intoxication); F10.1 (Mental and behavioural"
+"disorders due to use of alcohol, harmful use); F10.2 (Mental and behavioural disorders due to use of alcohol, dependence"
+"syndrome); F10.3 (Mental and behavioural disorders due to use of alcohol, withdrawal state); F10.4 (Mental and behavioural"
+"disorders due to use of alcohol, withdrawal state with delirium); F10.5 (Mental and behavioural disorders due to use of alcohol,"
+"psychotic disorder); F10.6 (Mental and behavioural disorders due to use of alcohol, amnesic syndrome); F10.7 (Mental and"
+"behavioural disorders due to use of alcohol, residual and late-onset psychotic disorder); F10.8 (Mental and behavioural"
+"disorders due to use of alcohol, other mental and behavioural disorders); F10.9 (Mental and behavioural disorders due to use of"
+"alcohol, unspecified mental and behavioural disorder); K70.0 (Alcoholic fatty liver); K70.1 (Alcoholic hepatitis); K70.2"
+"(Alcoholic fibrosis and sclerosis of liver); K70.3 (Alcoholic cirrhosis of liver); K70.4 (Alcoholic hepatic failure); K70.9"
+"(Alcoholic liver disease, unspecified); K73.0 (Chronic persistent hepatitis, not elsewhere classified); K73.1 (Chronic lobular"
+"hepatitis, not elsewhere classified); K73.2 (Chronic active hepatitis, not elsewhere classified); K73.8 (Other chronic"
+"hepatitis, not elsewhere classified); K73.9 (Chronic hepatitis, unspecified); K74.0 (Hepatic fibrosis); K74.1 (Hepatic"
+"sclerosis); K74.2 (Hepatic fibrosis with hepatic sclerosis); K74.3 (Primary biliary cirrhosis); K74.4 (Secondary biliary"
+"cirrhosis); K74.5 (Biliary cirrhosis, unspecified); K74.6 (Other and unspecified cirrhosis of liver); X45 (Accidental poisoning"
+"by and exposure to alcohol); X65 (Intentional self-poisoning by and exposure to alcohol)"
+"Sex: Female; Male"
+"Year/Month: 2023"
+"Group By: Five-Year Age Groups; Sex"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd-expanded.html for more information."
+"---"
+"Query Date: Oct 3, 2025 8:40:15 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 2018-2023 on CDC WONDER Online Database, released in 2024. Data are from the Multiple Cause of Death Files,"
+"2018-2023, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/ucd-icd10-expanded.html on Oct 3, 2025 8:40:15 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when they include a subset of ages 85-100+ because populations are not"
+"available for those ages. More information: http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Ages 85-100."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Unreliable."
+"4. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Not Stated."
+"5. The population figures for years 2023 are single-race estimates of the July 1 resident population, from the Vintage 2023"
+"postcensal series released by the Census Bureau on June 27, 2024. The 2023 series is based on the Modified Blended Base produced"
+"by the US Census Bureau in lieu of the April 1, 2020 decennial population count. The Modified Blended Base consists of the blend"
+"of Vintage 2020 postcensal population estimates for April 1, 2020, 2020 Demographic Analysis Estimates, and 2020 Census data"
+"from the internal Census Edited File (CEF). The population figures for years 2022 are single-race estimates of the July 1"
+"resident population, from the Vintage 2022 postcensal series released by the Census Bureau on June 22, 2023. The 2022 series is"
+"based on the Modified Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count. The"
+"Modified Blended Base consists of the blend of Vintage 2020 postcensal population estimates for April 1, 2020, 2020 Demographic"
+"Analysis Estimates, and 2020 Census data from the internal Census Edited File (CEF). The population figures for years 2021 are"
+"single-race estimates of the July 1 resident population, based on the Blended Base produced by the US Census Bureau in lieu of"
+"the April 1, 2020 decennial population count, from the Vintage 2021 postcensal series released by the Census Bureau on June 30,"
+"2022. The population figures for year 2020 are single-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series based on April 2010 Census, released by the Census Bureau on July 27, 2021. The population figures for year"
+"2019 are single-race estimates of the July 1 resident population, from the Vintage 2019 postcensal series based on April 2010"
+"Census, released by the Census Bureau on June 25, 2020. The population figures for year 2018 are single-race estimates of the"
+"July 1 resident population, from the Vintage 2018 postcensal series based on April 2010 Census, released by the Census Bureau on"
+"June 20, 2019. More information: http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Population Data."
+"6. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Age"
+"Group."
+"7. Connecticut population estimates for 2022 and later years are reported for 9 planning regions as county equivalent areas,"
+"instead of the former 8 legacy counties in the Vintage 2022 postcensal series released by the Census Bureau on June 22, 2023,"
+"and in the Vintage 2023 postcensal series released by the Census Bureau on June 27, 2024. Populations estimates for the former"
+"counties are not available for 2022 and later years. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Connecticut-2022."
+"8. After the creation of the final 2023 dataset, North Carolina updated the cause of death information for over 900 death"
+"certificates to include a cause of death code indicating drug overdose (ICD-10 underlying cause-of-death codes: X40-X44,"
+"X60-X64, X85, and Y10-Y14). Jurisdictions can continue to update death certificates after the closing of the mortality file. As"
+"a result, users should consider that the actual death count for drug overdose deaths for North Carolina in 2023 is over 4,400"
+"deaths, with a crude rate of approximately 41.0 per 100,000 population, and an age-adjusted rate of approximately 42.1 per"
+"100,000 population. These deaths will not be updated on the final mortality datasets."
+"9. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#ICD-10 Changes."
