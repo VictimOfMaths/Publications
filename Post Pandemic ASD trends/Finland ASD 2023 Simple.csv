@@ -1,0 +1,135 @@
+"11be -- Deaths by underlying cause of death (ICD-10, 3-character level), age and sex, 1998-2023"
+
+"Underlying cause of death (ICD-10, 3-character level)","Age","2023 Males Deaths","2023 Females Deaths"
+"F10 Mental and behavioural disorders due to use of alcohol","Total",208,42
+"F10 Mental and behavioural disorders due to use of alcohol","0",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","1 - 4",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","5 - 9",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","10 - 14",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","15 - 19",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","20 - 24",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","25 - 29",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","30 - 34",0,0
+"F10 Mental and behavioural disorders due to use of alcohol","35 - 39",1,0
+"F10 Mental and behavioural disorders due to use of alcohol","40 - 44",1,3
+"F10 Mental and behavioural disorders due to use of alcohol","45 - 49",3,2
+"F10 Mental and behavioural disorders due to use of alcohol","50 - 54",10,1
+"F10 Mental and behavioural disorders due to use of alcohol","55 - 59",14,1
+"F10 Mental and behavioural disorders due to use of alcohol","60 - 64",27,4
+"F10 Mental and behavioural disorders due to use of alcohol","65 - 69",47,6
+"F10 Mental and behavioural disorders due to use of alcohol","70 - 74",49,8
+"F10 Mental and behavioural disorders due to use of alcohol","75 - 79",31,12
+"F10 Mental and behavioural disorders due to use of alcohol","80 - 84",17,2
+"F10 Mental and behavioural disorders due to use of alcohol","85 - 89",6,3
+"F10 Mental and behavioural disorders due to use of alcohol","90 - 94",2,0
+"F10 Mental and behavioural disorders due to use of alcohol","95 -",0,0
+"K70 Alcoholic liver disease","Total",684,311
+"K70 Alcoholic liver disease","0",0,0
+"K70 Alcoholic liver disease","1 - 4",0,0
+"K70 Alcoholic liver disease","5 - 9",0,0
+"K70 Alcoholic liver disease","10 - 14",0,0
+"K70 Alcoholic liver disease","15 - 19",0,0
+"K70 Alcoholic liver disease","20 - 24",0,0
+"K70 Alcoholic liver disease","25 - 29",0,0
+"K70 Alcoholic liver disease","30 - 34",4,1
+"K70 Alcoholic liver disease","35 - 39",12,7
+"K70 Alcoholic liver disease","40 - 44",24,8
+"K70 Alcoholic liver disease","45 - 49",30,12
+"K70 Alcoholic liver disease","50 - 54",72,22
+"K70 Alcoholic liver disease","55 - 59",102,44
+"K70 Alcoholic liver disease","60 - 64",133,64
+"K70 Alcoholic liver disease","65 - 69",133,57
+"K70 Alcoholic liver disease","70 - 74",105,64
+"K70 Alcoholic liver disease","75 - 79",58,23
+"K70 Alcoholic liver disease","80 - 84",7,8
+"K70 Alcoholic liver disease","85 - 89",4,1
+"K70 Alcoholic liver disease","90 - 94",0,0
+"K70 Alcoholic liver disease","95 -",0,0
+"K73 Chronic hepatitis, not elsewhere classified","Total",0,0
+"K73 Chronic hepatitis, not elsewhere classified","0",0,0
+"K73 Chronic hepatitis, not elsewhere classified","1 - 4",0,0
+"K73 Chronic hepatitis, not elsewhere classified","5 - 9",0,0
+"K73 Chronic hepatitis, not elsewhere classified","10 - 14",0,0
+"K73 Chronic hepatitis, not elsewhere classified","15 - 19",0,0
+"K73 Chronic hepatitis, not elsewhere classified","20 - 24",0,0
+"K73 Chronic hepatitis, not elsewhere classified","25 - 29",0,0
+"K73 Chronic hepatitis, not elsewhere classified","30 - 34",0,0
+"K73 Chronic hepatitis, not elsewhere classified","35 - 39",0,0
+"K73 Chronic hepatitis, not elsewhere classified","40 - 44",0,0
+"K73 Chronic hepatitis, not elsewhere classified","45 - 49",0,0
+"K73 Chronic hepatitis, not elsewhere classified","50 - 54",0,0
+"K73 Chronic hepatitis, not elsewhere classified","55 - 59",0,0
+"K73 Chronic hepatitis, not elsewhere classified","60 - 64",0,0
+"K73 Chronic hepatitis, not elsewhere classified","65 - 69",0,0
+"K73 Chronic hepatitis, not elsewhere classified","70 - 74",0,0
+"K73 Chronic hepatitis, not elsewhere classified","75 - 79",0,0
+"K73 Chronic hepatitis, not elsewhere classified","80 - 84",0,0
+"K73 Chronic hepatitis, not elsewhere classified","85 - 89",0,0
+"K73 Chronic hepatitis, not elsewhere classified","90 - 94",0,0
+"K73 Chronic hepatitis, not elsewhere classified","95 -",0,0
+"K74 Fibrosis and cirrhosis of liver","Total",90,81
+"K74 Fibrosis and cirrhosis of liver","0",0,0
+"K74 Fibrosis and cirrhosis of liver","1 - 4",0,0
+"K74 Fibrosis and cirrhosis of liver","5 - 9",0,0
+"K74 Fibrosis and cirrhosis of liver","10 - 14",0,0
+"K74 Fibrosis and cirrhosis of liver","15 - 19",0,0
+"K74 Fibrosis and cirrhosis of liver","20 - 24",0,0
+"K74 Fibrosis and cirrhosis of liver","25 - 29",0,0
+"K74 Fibrosis and cirrhosis of liver","30 - 34",0,0
+"K74 Fibrosis and cirrhosis of liver","35 - 39",1,0
+"K74 Fibrosis and cirrhosis of liver","40 - 44",2,0
+"K74 Fibrosis and cirrhosis of liver","45 - 49",2,1
+"K74 Fibrosis and cirrhosis of liver","50 - 54",1,0
+"K74 Fibrosis and cirrhosis of liver","55 - 59",6,6
+"K74 Fibrosis and cirrhosis of liver","60 - 64",9,7
+"K74 Fibrosis and cirrhosis of liver","65 - 69",11,1
+"K74 Fibrosis and cirrhosis of liver","70 - 74",19,21
+"K74 Fibrosis and cirrhosis of liver","75 - 79",15,18
+"K74 Fibrosis and cirrhosis of liver","80 - 84",11,13
+"K74 Fibrosis and cirrhosis of liver","85 - 89",9,8
+"K74 Fibrosis and cirrhosis of liver","90 - 94",3,6
+"K74 Fibrosis and cirrhosis of liver","95 -",1,0
+"X45 Accidental poisoning by and exposure to alcohol","Total",115,27
+"X45 Accidental poisoning by and exposure to alcohol","0",0,0
+"X45 Accidental poisoning by and exposure to alcohol","1 - 4",0,0
+"X45 Accidental poisoning by and exposure to alcohol","5 - 9",0,0
+"X45 Accidental poisoning by and exposure to alcohol","10 - 14",0,0
+"X45 Accidental poisoning by and exposure to alcohol","15 - 19",0,0
+"X45 Accidental poisoning by and exposure to alcohol","20 - 24",1,1
+"X45 Accidental poisoning by and exposure to alcohol","25 - 29",7,1
+"X45 Accidental poisoning by and exposure to alcohol","30 - 34",5,2
+"X45 Accidental poisoning by and exposure to alcohol","35 - 39",3,1
+"X45 Accidental poisoning by and exposure to alcohol","40 - 44",15,0
+"X45 Accidental poisoning by and exposure to alcohol","45 - 49",9,1
+"X45 Accidental poisoning by and exposure to alcohol","50 - 54",15,4
+"X45 Accidental poisoning by and exposure to alcohol","55 - 59",17,2
+"X45 Accidental poisoning by and exposure to alcohol","60 - 64",16,5
+"X45 Accidental poisoning by and exposure to alcohol","65 - 69",16,8
+"X45 Accidental poisoning by and exposure to alcohol","70 - 74",9,0
+"X45 Accidental poisoning by and exposure to alcohol","75 - 79",2,2
+"X45 Accidental poisoning by and exposure to alcohol","80 - 84",0,0
+"X45 Accidental poisoning by and exposure to alcohol","85 - 89",0,0
+"X45 Accidental poisoning by and exposure to alcohol","90 - 94",0,0
+"X45 Accidental poisoning by and exposure to alcohol","95 -",0,0
+"X65 Intentional self-poisoning by and exposure to alcohol","Total",2,1
+"X65 Intentional self-poisoning by and exposure to alcohol","0",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","1 - 4",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","5 - 9",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","10 - 14",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","15 - 19",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","20 - 24",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","25 - 29",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","30 - 34",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","35 - 39",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","40 - 44",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","45 - 49",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","50 - 54",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","55 - 59",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","60 - 64",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","65 - 69",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","70 - 74",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","75 - 79",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","80 - 84",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","85 - 89",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","90 - 94",...,...
+"X65 Intentional self-poisoning by and exposure to alcohol","95 -",...,...
